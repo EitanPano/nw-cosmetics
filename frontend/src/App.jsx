@@ -1,9 +1,15 @@
-import './styles/main.scss'
+import './styles/main.scss';
+
+import { AppFooter } from './components/AppFooter';
+import { AppHeader } from './components/AppHeader';
+import { Home } from './views/Home';
 
 function App() {
     return (
         <div className="App">
-            Hello World
+            <AppHeader></AppHeader>
+            <Home></Home>
+            <AppFooter></AppFooter>
         </div>
     );
 }

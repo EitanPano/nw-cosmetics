@@ -1,0 +1,80 @@
+[
+    {
+        "_id": "1",
+        "name": "Jordan Samuel Skin Matinee cream cleanser",
+        "image": "../assets/imgs/products/jordan_samuel_skin_matinee_cream_cleanser.jpg",
+        "description": "It has a great texture, never leaves my face stripped, and is unscented. It has silt in it, which gives it a little extra punch that some other cream cleansers don’t have. I really adore this line because Jordan Samuel’s products are always consistent, and the price point is reasonable.",
+        "brand": "Jordan Samuel",
+        "category": "Personal Cleanliness",
+        "isNatural": false,
+        "price": 28,
+        "inStockCount": 10,
+        "rating": 4.7,
+        "reviewCount": 9
+    },
+    {
+        "_id": "2",
+        "name": "R+Co Bleu Sleep Masque Night Repair serum",
+        "image": "../assets/imgs/products/r+co_bleu_sleep_masque_night_repair_serum.jpg",
+        "description": "It’s a standout from the R+Co BLEU couture-level capsule collection, consulted on by top industry hair artists to achieve the perfect innovative and sustainable formulations. The Sleep Masque Night Repair is the first bottle you should grab. Healthy hair gives colorists a solid foundation to work with for the best possible end-result color, and this masque leaves hair strong and shiny thanks to innovative ingredients like green caviar.",
+        "brand": "R+Co",
+        "category": "Skin Care Preparations",
+        "isNatural": false,
+        "price": 165,
+        "inStockCount": 10,
+        "rating": 5,
+        "reviewCount": 26
+    },
+    {
+        "_id": "3",
+        "name": "Hermès Rosy lip enhancer",
+        "image": "../assets/imgs/products/hermes_rosy_lip_enhancer.jpg",
+        "description": "This moisturizing but slightly matte Hermès lip stain is a universal pick-me-up. It adds a touch of life to any lip, and its sheer finish offers mistake-proof wearability. It’s always in my handbag, day or night!",
+        "brand": "Hermès",
+        "category": "Makeup Preparations",
+        "isNatural": false,
+        "price": 67,
+        "inStockCount": 10,
+        "rating": 4.6,
+        "reviewCount": 12
+    },
+    {
+        "_id": "4",
+        "name": "Oribe Très Set Structure spray",
+        "image": "../assets/imgs/products/oribe_tres_set_structure_spray.jpg",
+        "description": "Oribe’s Très Set has been my staple must-have as a foundation for most of my work [this year]. It is a spray mousse that I blow-dry into the hair to create looks with memory, fullness, and shine. It’s the ultimate backstage product.",
+        "brand": "Oribe Très",
+        "category": "Hair Preparations",
+        "isNatural": false,
+        "price": 46,
+        "inStockCount": 10,
+        "rating": 3.7,
+        "reviewCount": 15
+    },
+    {
+        "_id": "5",
+        "name": "In Fiore Fleur Vibrante Serum Cerate",
+        "image": "../assets/imgs/products/in_fiore_fleur_vibrante_serum_cerate.jpg",
+        "description": "This hybrid balm/oil has the most amazing smell and a vibrant yellow color, thanks to sea buckthorn oil, which contains all the omega fatty acids that you want in an oil. It also contains carrot oil and calendula to protect skin against the environment and UV rays, so it’s basically a force field for your face. I use it as the last step in my routine, but it can be used as a serum as well.",
+        "brand": "In Fiore",
+        "category": "Hair Preparations",
+        "isNatural": false,
+        "price": 115,
+        "inStockCount": 10,
+        "rating": 4.5,
+        "reviewCount": 8
+    },
+    {
+        "_id": "6",
+        "name": "Victoria Beckham Beauty Future Lash mascara",
+        "image": "../assets/imgs/products/victoria_beckham_beauty_future_lash_mascara.jpg",
+        "description": "I have honestly never experienced a mascara that stays put quite like this one—fluttery, glossy, and buildable, it never smudges or flakes! Pro trick: If you desire more oomph, use it as a sealing layer on top of your favorite volumizing formula.",
+        "brand": "Victoria Beckham",
+        "category": "Makeup Preparations",
+        "isNatural": false,
+        "price": 28,
+        "inStockCount": 10,
+        "rating": 4.4,
+        "reviewCount": 4
+    }
+]
