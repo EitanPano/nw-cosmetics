@@ -15,6 +15,7 @@ export const Home = () => {
 
     useEffect(() => {      
         loadProducts()
+        console.log('Hello');
     }, [])
     
 

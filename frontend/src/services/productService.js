@@ -1,6 +1,9 @@
 import defaultProducts from '../data/products.json'
 import { lasso } from './localAsyncStorageService';
 
+import { httpService } from './http.service'
+
+
 export const productService = {
     query,
     getById,
@@ -27,17 +30,31 @@ function _filter(filterBy, products) {
 }
 
 async function query(filterBy = null) {
-    let products = await lasso.query(PRODUCT_KEY);
-    if (!products.length) products = _loadProducts()
-    if (filterBy) {
-        products = _filter(filterBy, products);
+    try {
+        // let products = await lasso.query(PRODUCT_KEY);
+        let products = await httpService.get('product', filterBy);
+        if (!products.length) products = _loadProducts()
+        if (filterBy) {
+            products = _filter(filterBy, products);
+        }
+        // return Promise.resolve([...products]);
+        return products;
+    } catch(err) {
+        console.log('err: ', err);
+        throw err;
     }
-    return Promise.resolve([...products]);
 }
 
-async function getById(id) {
-    const product = await lasso.get(PRODUCT_KEY ,id)
-    return Promise.resolve({ ...product });
+async function getById(productId) {
+    try {
+        // const product = await lasso.get(PRODUCT_KEY ,id)
+        const product = await httpService.get(`product/${productId}`)
+        // return Promise.resolve({ ...product });
+        return product;
+    } catch(err) {
+        console.log('err: ', err);
+        throw err;
+    }
 }
 
 function save(product) {
