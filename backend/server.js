@@ -1,10 +1,21 @@
-const express = require('express');
-const cors = require('cors');
-const path = require('path');
-const expressSession = require('express-session');
+import express from 'express';
+// const express = require('express');
+import dotenv from 'dotenv';
+// const dotenv = require('dotenv');
+import cors from 'cors';
+// const cors = require('cors');
+import path from 'path';
+import http from 'http';
+
+// const path = require('path');
+import expressSession from 'express-session';
+// const expressSession = require('express-session');
+
+dotenv.config()
 
 const app = express();
-const http = require('http').createServer(app);
+http.createServer(app);
+// const http = require('http').createServer(app);
 
 // Express App Config
 const session = expressSession({
@@ -27,18 +38,22 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // ROUTES
-const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
+import setupAsyncLocalStorage from './middlewares/setupAls.middleware.js';
+// const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
 app.all('*', setupAsyncLocalStorage);
 
-const productRoutes = require('./api/product/routes.js');
+// const productRoutes = require('./api/product/routes.js');
+import productRoutes from './api/product/routes.js'
 app.use('/api/product', productRoutes);
 
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });
 
-const logger = require('./services/logger.service');
+// const logger = require('./services/logger.service');
+import logger from './services/logger.service.js';
 const port = process.env.PORT || 3030;
-http.listen(port, () => {
-    logger.info('Server is running on port: ' + port);
+
+app.listen(port, () => {
+    logger.info(`Server is running in "${process.env.NODE_ENV} Mode" on port: ` + port);
 });

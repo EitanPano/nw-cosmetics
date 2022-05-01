@@ -1,6 +1,8 @@
-const MongoClient = require('mongodb').MongoClient
+// const MongoClient = require('mongodb').MongoClient
+import { MongoClient } from 'mongodb'
 
-const config = require('../config')
+// const config = require('../config')
+import config from '../config'
 
 module.exports = {
     getCollection

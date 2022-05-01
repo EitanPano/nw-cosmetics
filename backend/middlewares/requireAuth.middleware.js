@@ -1,4 +1,5 @@
-const logger = require('../services/logger.service')
+// const logger = require('../services/logger.service')
+import logger from '../services/logger.service.js';
 
 function requireAuth(req, res, next) {
   console.log('user session??? line 4',req.session)
@@ -20,9 +21,13 @@ function requireAdmin(req, res, next) {
 }
 
 
-// module.exports = requireAuth
 
-module.exports = {
+// module.exports = {
+//   requireAuth,
+//   requireAdmin
+// }
+
+export default {
   requireAuth,
   requireAdmin
 }

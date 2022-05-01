@@ -1,13 +1,15 @@
 // const productService = require('./service.js');
-const logger = require('../../services/logger.service');
-const _products = require('../../data/products.json');
+// import productService from './service.js'
+// const logger = require('../../services/logger.service');
+import logger from '../../services/logger.service.js';
+// const _products = require('../../data/_products.json');
+import _products from '../../data/_products.json' assert {type: 'json'};
 
-async function getProducts(req, res) {
+export async function getProducts(req, res) {
     try {
         var queryParams = req.query;
         // const products = await productService.query(queryParams);
         const products = _products;
-        logger.info(products);
         res.json(products);
     } catch (err) {
         logger.error('Failed to get products', err);
@@ -15,7 +17,7 @@ async function getProducts(req, res) {
     }
 }
 
-async function getProductById(req, res) {
+export async function getProductById(req, res) {
     try {
         const productId = req.params.id;
         // const product = await productService.getById(productId);
@@ -27,7 +29,7 @@ async function getProductById(req, res) {
     }
 }
 
-async function addProduct(req, res) {
+export async function addProduct(req, res) {
     try {
         const product = req.body;
         const addedProduct = await productService.add(product);
@@ -39,7 +41,7 @@ async function addProduct(req, res) {
     }
 }
 
-async function updateProduct(req, res) {
+export async function updateProduct(req, res) {
     try {
         const product = req.body;
         // console.log(product)
@@ -51,7 +53,7 @@ async function updateProduct(req, res) {
     }
 }
 
-async function removeProduct(req, res) {
+export async function removeProduct(req, res) {
     try {
         const productId = req.params.id;
         const removedId = await productService.remove(productId);
@@ -63,10 +65,15 @@ async function removeProduct(req, res) {
     }
 }
 
-module.exports = {
-    getProducts,
-    getProductById,
-    addProduct,
-    updateProduct,
-    removeProduct,
-};
+
+// module.exports = {
+//     getProducts,
+//     getProductById,
+//     addProduct,
+//     updateProduct,
+//     removeProduct,
+// }
+
+
+
+

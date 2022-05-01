@@ -1,5 +1,7 @@
-const logger = require('../services/logger.service')
-const asyncLocalStorage = require('../services/als.service')
+// const logger = require('../services/logger.service')
+import logger from '../services/logger.service.js'
+// const asyncLocalStorage = require('../services/als.service')
+import asyncLocalStorage from '../services/als.service.js'
 
 async function setupAsyncLocalStorage(req, res, next) {
   const storage = {}
@@ -16,5 +18,6 @@ async function setupAsyncLocalStorage(req, res, next) {
   })
 }
 
-module.exports = setupAsyncLocalStorage
+// module.exports = setupAsyncLocalStorage
+export default setupAsyncLocalStorage
 

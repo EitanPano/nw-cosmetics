@@ -1,12 +1,15 @@
-const logger = require('../services/logger.service')
+// const logger = require('../services/logger.service')
+import logger from '../services/logger.service.js';
 
-async function log(req, res, next) {
+export async function log(req, res, next) {
   if (req.session && req.session.user) {
     logger.info('Req from: ' + req.session.user.fullname)
   }
   next()
 }
 
-module.exports = {
-  log
-}
+// module.exports = {
+//   log
+// }
+
+// export default log

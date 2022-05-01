@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Find the best quality cosmetic products and treatments",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node backend/server.js",
-    "start:dev": "set NODE_ENV=development&&nodemon backend/server.js",
-    "server:dev": "set NODE_ENV=development&&nodemon backend/server.js",
-    "server:prod": "set NODE_ENV=production&&node backend/server.js",
+    "start": "node --experimental-json-modules backend/server.js",
+    "server": "set NODE_ENV=development&&nodemon --experimental-json-modules backend/server.js",
+    "client": "npm start --prefix frontend",
+    "start:dev": "concurrently \"npm run server\" \"npm run client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
@@ -22,9 +23,14 @@
   "homepage": "https://github.com/EitanPano/nw-cosmetics#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.18.0",
     "express-session": "^1.17.2",
     "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16"
   },
   "engines": {
     "node": "16.x"

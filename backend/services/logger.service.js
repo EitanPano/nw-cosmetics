@@ -1,5 +1,7 @@
-const fs = require('fs')
-const asyncLocalStorage = require('./als.service')
+// const fs = require('fs')
+import fs from 'fs';
+// const asyncLocalStorage = require('./als.service')
+import asyncLocalStorage from './als.service.js';
 
 
 const logsDir = './logs'
@@ -34,7 +36,23 @@ function doLog(level, ...args) {
     fs.appendFileSync('./logs/backend.log', line)
 }
 
-module.exports = {
+// module.exports = {
+//     debug(...args) {
+//         // if (process.env.NODE_NEV === 'production') return
+//         doLog('DEBUG', ...args)
+//     },
+//     info(...args) {
+//         doLog('INFO', ...args)
+//     },
+//     warn(...args) {
+//         doLog('WARN', ...args)
+//     },
+//     error(...args) {
+//         doLog('ERROR', ...args)
+//     }
+// }
+
+export default {
     debug(...args) {
         // if (process.env.NODE_NEV === 'production') return
         doLog('DEBUG', ...args)

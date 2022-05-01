@@ -1,7 +1,10 @@
-const express = require('express')
-const { requireAuth, requireAdmin } = require('../../middlewares/requireAuth.middleware')
-const { log } = require('../../middlewares/logger.middleware')
-const { getProducts, getProductById, addProduct, updateProduct, removeProduct } = require('./controller')
+// const express = require('express')
+import express from 'express'
+// const { requireAuth, requireAdmin } = require('../../middlewares/requireAuth.middleware')
+// const { log } = require('../../middlewares/logger.middleware')
+import { log } from '../../middlewares/logger.middleware.js';
+// const { getProducts, getProductById, addProduct, updateProduct, removeProduct } = require('./controller')
+import { getProducts, getProductById, addProduct, updateProduct, removeProduct } from './controller.js';
 const router = express.Router()
 
 // middleware that is specific to this router
@@ -17,4 +20,5 @@ router.put('/:id', updateProduct)
 router.delete('/:id', removeProduct)
 // router.delete('/:id', requireAuth, requireAdmin, removeProduct)
 
-module.exports = router
+// module.exports = router
+export default router
