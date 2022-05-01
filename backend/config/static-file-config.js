@@ -1,3 +1,4 @@
+import express from 'express';
 import cors from 'cors';
 
 export const getStaticFilePath = (nodeEnv, dirName, filePath) => {
