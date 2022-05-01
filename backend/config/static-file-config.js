@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 
-export const getStaticFilePath = (nodeEnv, dirName, filePath) => {
+export const getStaticFilePath = (nodeEnv, filePath) => {
     if (nodeEnv === 'production') {
-        return express.static(path.resolve(dirName, filePath));
+        return express.static(filePath);
     }
     const corsConfig = {
         origin: [

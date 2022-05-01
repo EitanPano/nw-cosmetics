@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(session);
 
 // Load Static File
-app.use(getStaticFilePath(NODE_ENV, __dirname, '../frontend/build'));
+app.use(getStaticFilePath(NODE_ENV, path.resolve(__dirname, '..', 'frontend', 'build')));
 
 // Routes Middlewares
 import setupAsyncLocalStorage from './middlewares/setupAls.middleware.js';
