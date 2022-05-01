@@ -34,6 +34,7 @@ app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });
 
+
 import logger from './services/logger.service.js';
 app.listen(PORT, () => {
     logger.info(`Server is running in "${NODE_ENV} Mode" on port: ` + PORT);
