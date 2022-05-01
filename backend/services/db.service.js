@@ -1,42 +1,38 @@
-// const MongoClient = require('mongodb').MongoClient
-import { MongoClient } from 'mongodb'
-
-// const config = require('../config')
-import config from '../config'
-
-module.exports = {
-    getCollection
-}
+import logger from './logger.service.js';
+import { dbURL } from '../config/db-config.js';
+import { MongoClient } from 'mongodb';
 
 // Database Name
-const dbName = 'station_db'
+const dbName = 'nw-cosmetics';
 
-var dbConn = null
+let dbConn = null;
 
 async function getCollection(collectionName) {
     try {
-        const db = await connect()
-        const collection = await db.collection(collectionName)
-        return collection
+        const db = await _connect();
+        const collection = await db.collection(collectionName);
+        return collection;
     } catch (err) {
-        logger.error('Failed to get Mongo collection', err)
-        throw err
+        logger.error('Failed to get Mongo collection', err);
+        throw err;
     }
 }
 
-async function connect() {
-    if (dbConn) return dbConn
+async function _connect() {
+    console.log('dbURL: ', dbURL)
+    if (dbConn) return dbConn;
     try {
-        const client = await MongoClient.connect(config.dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
-        const db = client.db(dbName)
-        dbConn = db
-        return db
+        const client = await MongoClient.connect(dbURL, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        });
+        const db = client.db(dbName);
+        dbConn = db;
+        return db;
     } catch (err) {
-        logger.error('Cannot Connect to DB', err)
-        throw err
+        logger.error('Cannot Connect to DB', err);
+        throw err;
     }
 }
 
-
-
-
+export default { getCollection };

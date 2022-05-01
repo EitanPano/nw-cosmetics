@@ -1,15 +1,13 @@
-// const productService = require('./service.js');
-// import productService from './service.js'
-// const logger = require('../../services/logger.service');
+import productService from './service.js'
 import logger from '../../services/logger.service.js';
-// const _products = require('../../data/_products.json');
-import _products from '../../data/_products.json' assert {type: 'json'};
+// import _products from '../../data/_products.json' assert {type: 'json'};
 
-export async function getProducts(req, res) {
+
+async function getProducts(req, res) {
     try {
         var queryParams = req.query;
-        // const products = await productService.query(queryParams);
-        const products = _products;
+        const products = await productService.query(queryParams);
+        // const products = _products;
         res.json(products);
     } catch (err) {
         logger.error('Failed to get products', err);
@@ -17,7 +15,7 @@ export async function getProducts(req, res) {
     }
 }
 
-export async function getProductById(req, res) {
+async function getProductById(req, res) {
     try {
         const productId = req.params.id;
         // const product = await productService.getById(productId);
@@ -29,7 +27,7 @@ export async function getProductById(req, res) {
     }
 }
 
-export async function addProduct(req, res) {
+async function addProduct(req, res) {
     try {
         const product = req.body;
         const addedProduct = await productService.add(product);
@@ -41,7 +39,7 @@ export async function addProduct(req, res) {
     }
 }
 
-export async function updateProduct(req, res) {
+async function updateProduct(req, res) {
     try {
         const product = req.body;
         // console.log(product)
@@ -53,7 +51,7 @@ export async function updateProduct(req, res) {
     }
 }
 
-export async function removeProduct(req, res) {
+async function removeProduct(req, res) {
     try {
         const productId = req.params.id;
         const removedId = await productService.remove(productId);
@@ -65,14 +63,13 @@ export async function removeProduct(req, res) {
     }
 }
 
-
-// module.exports = {
-//     getProducts,
-//     getProductById,
-//     addProduct,
-//     updateProduct,
-//     removeProduct,
-// }
+export {
+    getProducts,
+    getProductById,
+    addProduct,
+    updateProduct,
+    removeProduct,
+}
 
 
 

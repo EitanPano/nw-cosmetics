@@ -1,5 +1,5 @@
 // const logger = require('../services/logger.service')
-import logger from '../services/logger.service.js'
+// import logger from '../services/logger.service.js'
 // const asyncLocalStorage = require('../services/als.service')
 import asyncLocalStorage from '../services/als.service.js'
 

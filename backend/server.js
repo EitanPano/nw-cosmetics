@@ -1,21 +1,19 @@
 import express from 'express';
-// const express = require('express');
 import dotenv from 'dotenv';
-// const dotenv = require('dotenv');
 import cors from 'cors';
-// const cors = require('cors');
-import path from 'path';
 import http from 'http';
 
-// const path = require('path');
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 import expressSession from 'express-session';
-// const expressSession = require('express-session');
 
 dotenv.config()
 
 const app = express();
 http.createServer(app);
-// const http = require('http').createServer(app);
 
 // Express App Config
 const session = expressSession({
