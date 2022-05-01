@@ -15,7 +15,7 @@ async function query(filterBy) {
         // console.log('sortCriteria', sortCriteria);
         const collection = await dbService.getCollection('product')
         const products = await collection.find(criteria).sort(sortCriteria).toArray()
-        console.log('products', products);
+        // console.log('products', products);
         return products
     } catch (err) {
         logger.error('cannot find products', err)
