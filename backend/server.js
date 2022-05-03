@@ -18,8 +18,6 @@ createServer(app);
 
 app.use(express.json());
 app.use(session);
-
-// Load Static File
 app.use(getStaticFilePath(NODE_ENV, path.resolve(__dirname, '..', 'frontend', 'build')));
 
 // Routes Middlewares
@@ -34,8 +32,9 @@ app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });
 
-
 import logger from './services/logger.service.js';
+import { toUpperFirst } from './services/util.service.js';
+
 app.listen(PORT, () => {
-    logger.info(`Server is running in "${NODE_ENV} Mode" on port: ` + PORT);
+    logger.info(`${toUpperFirst(NODE_ENV)} Server running on port: ` + PORT);
 });

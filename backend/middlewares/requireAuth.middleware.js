@@ -1,4 +1,3 @@
-// const logger = require('../services/logger.service')
 import logger from '../services/logger.service.js';
 
 function requireAuth(req, res, next) {
@@ -27,7 +26,7 @@ function requireAdmin(req, res, next) {
 //   requireAdmin
 // }
 
-export default {
+export {
   requireAuth,
   requireAdmin
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './styles/main.scss';
 
 import { AppFooter } from './components/AppFooter';
@@ -10,8 +10,6 @@ import { Cart } from './views/Cart';
 import { Auth } from './views/Auth';
 
 function App() {
-
-    
 
     return (
         <Router>

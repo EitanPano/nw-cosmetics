@@ -18,8 +18,8 @@ async function getProducts(req, res) {
 async function getProductById(req, res) {
     try {
         const productId = req.params.id;
-        // const product = await productService.getById(productId);
-        const product = _products.find(_product => _product._id === productId)
+        const product = await productService.getById(productId);
+        // const product = _products.find(_product => _product._id === productId)
         res.json(product);
     } catch (err) {
         logger.error('Failed to get product', err);
@@ -32,7 +32,7 @@ async function addProduct(req, res) {
         const product = req.body;
         const addedProduct = await productService.add(product);
         res.json(addedProduct);
-        console.log('addeded product', addedProduct);
+        // console.log('addeded product', addedProduct);
     } catch (err) {
         logger.error('Failed to add product', err);
         res.status(500).send({ err: 'Failed to add product' });
@@ -42,7 +42,6 @@ async function addProduct(req, res) {
 async function updateProduct(req, res) {
     try {
         const product = req.body;
-        // console.log(product)
         const updatedProduct = await productService.update(product);
         res.json(updatedProduct);
     } catch (err) {
@@ -55,7 +54,6 @@ async function removeProduct(req, res) {
     try {
         const productId = req.params.id;
         const removedId = await productService.remove(productId);
-        console.log('removedId', removedId);
         res.send(removedId);
     } catch (err) {
         logger.error('Failed to remove product', err);
