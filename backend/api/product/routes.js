@@ -13,7 +13,7 @@ router.get('/:id', getProductById);
 
 router.post('/', validateData, addProduct);
 // router.post('/', requireAuth, requireAdmin, addProduct)
-router.put('/:id', updateProduct);
+router.put('/:id', validateData, updateProduct);
 // router.put('/:id', requireAuth, requireAdmin, updateProduct)
 router.delete('/:id', removeProduct);
 // router.delete('/:id', requireAuth, requireAdmin, removeProduct)

@@ -288,3 +288,42 @@
 [ 03/05/2022, 19:53:25 ] - INFO - Product ID: 62715e05536b97b81f7ac4af has been added. (sid: 5hnpkXa0i30-hDmyNcSufFLpxWqV9daV) 
 [ 03/05/2022, 19:57:32 ] - INFO - Development Server running on port: 3030  
 [ 03/05/2022, 20:31:57 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 10:00:36 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 10:01:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8k7BjIY2X5u1eIPesZjvOlxBgkIq0t-n) 
+[ 04/05/2022, 16:16:45 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:17:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JmeNWHJr8tG6cCRUokDZQbUc9TQovNhb) 
+[ 04/05/2022, 16:20:42 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:22:46 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:23:30 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:24:05 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:26:03 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:26:21 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 16:26:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: wnzPQz1jMHAFQvvTsNh9b8tzWmymLGDo) 
+[ 04/05/2022, 16:26:21 ] - INFO - Product ID: 62727efd7455c9915d6d1efd has been added. (sid: wnzPQz1jMHAFQvvTsNh9b8tzWmymLGDo) 
+[ 04/05/2022, 17:10:26 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:12:39 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:19:00 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:23:53 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:29:03 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:29:29 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:30:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: OhZhDRl9H8qQXZvyueC24ZHKCzkZ_qcc) 
+[ 04/05/2022, 17:30:52 ] - INFO - Product ID: 62728e1cc97db91b3e49952a has been added. (sid: OhZhDRl9H8qQXZvyueC24ZHKCzkZ_qcc) 
+[ 04/05/2022, 17:33:22 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:38:50 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:38:59 ] - WARN - Invalid data inserted, Check for the required fields. (sid: f7z9cXB9KzvmPwkWhkABDKjoUWDWre3w) 
+[ 04/05/2022, 17:39:49 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:39:50 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:39:53 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:39:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 97fYuh6gcZgpWLcU1SmMg6bscWB7ULmw) 
+[ 04/05/2022, 17:39:59 ] - INFO - Product ID: 6272903f20130f55dca023c4 has been added. (sid: 97fYuh6gcZgpWLcU1SmMg6bscWB7ULmw) 
+[ 04/05/2022, 17:40:20 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:40:24 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:40:49 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:40:52 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 17:40:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Lr3pIcpB16EeLUDsxcse0LL4l5Jyilz3) 
+[ 04/05/2022, 17:40:57 ] - INFO - Product ID: 627290793b54f4e926cce7fa has been added. (sid: Lr3pIcpB16EeLUDsxcse0LL4l5Jyilz3) 
+[ 04/05/2022, 18:03:21 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 18:04:44 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 18:05:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 
+[ 04/05/2022, 18:05:21 ] - INFO - Product ID: 62729631d08be70953a7eca7 has been added. (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 
+[ 04/05/2022, 18:06:55 ] - INFO - Product ID: 6272968fd08be70953a7eca8 has been updated. (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 

@@ -2,7 +2,7 @@ import logger from '../services/logger.service.js';
 import Ajv from 'ajv';
 import { productSchema } from '../models/productModel.js';
 
-const ajv = new Ajv({ allErrors: true, useDefaults: true });
+const ajv = new Ajv({ allErrors: true, useDefaults: true, removeAdditional: "all" });
 
 const validateData = (req, res, next) => {
     const modelName = req.baseUrl.split('/').pop();
