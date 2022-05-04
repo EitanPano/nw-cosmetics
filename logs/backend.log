@@ -327,3 +327,7 @@
 [ 04/05/2022, 18:05:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 
 [ 04/05/2022, 18:05:21 ] - INFO - Product ID: 62729631d08be70953a7eca7 has been added. (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 
 [ 04/05/2022, 18:06:55 ] - INFO - Product ID: 6272968fd08be70953a7eca8 has been updated. (sid: 4phC_jvk_97lnnL8wq6RbnQD-tRmzkqL) 
+[ 04/05/2022, 18:38:53 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 18:59:22 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 19:01:50 ] - INFO - Development Server running on port: 3030  
+[ 04/05/2022, 19:01:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: wdxCjDtG1UAgqJjxoxMggVdA9CCmJBhA) 
