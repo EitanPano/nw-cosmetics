@@ -5,7 +5,7 @@ import logger from '../../services/logger.service.js';
 
 async function getProducts(req, res) {
     try {
-        var queryParams = req.query;
+        const queryParams = req.query;
         const products = await productService.query(queryParams);
         // const products = _products;
         res.json(products);
@@ -32,7 +32,6 @@ async function addProduct(req, res) {
         const product = req.body;
         const addedProduct = await productService.add(product);
         res.json(addedProduct);
-        // console.log('addeded product', addedProduct);
     } catch (err) {
         logger.error('Failed to add product', err);
         res.status(500).send({ err: 'Failed to add product' });
@@ -42,6 +41,7 @@ async function addProduct(req, res) {
 async function updateProduct(req, res) {
     try {
         const product = req.body;
+        console.log('product: ', product)
         const updatedProduct = await productService.update(product);
         res.json(updatedProduct);
     } catch (err) {

@@ -23,6 +23,7 @@
   "homepage": "https://github.com/EitanPano/nw-cosmetics#readme",
   "dependencies": {
     "ajv": "^8.11.0",
+    "bcrypt": "^5.0.1",
     "chalk": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",

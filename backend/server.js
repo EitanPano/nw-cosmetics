@@ -28,6 +28,18 @@ app.all('*', setupAsyncLocalStorage);
 import productRoutes from './api/product/routes.js';
 app.use('/api/product', productRoutes);
 
+import authRoutes from './api/auth/routes.js';
+app.use('/api/auth', authRoutes);
+
+import userRoutes from './api/user/routes.js';
+app.use('/api/user', userRoutes);
+
+import reviewRoutes from './api/review/routes.js';
+app.use('/api/review', reviewRoutes);
+
+// import orderRoutes from './api/order/routes.js';
+// app.use('/api/order', orderRoutes)
+
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });

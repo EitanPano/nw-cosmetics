@@ -1,32 +1,21 @@
-const reviewModel = {
-    type: 'object',
-    properties: {
-        userId: { type: 'string' },
-        productId: { type: 'string' },
-        title: { type: 'string' },
-        rating: { type: 'number' },
-        description: { type: 'string' },
-        createdAt: { type: 'number', default: Date.now() },
-    },
-    required: ['userId', 'productId', 'title', 'rating'],
-};
-
 const productModel = {
     type: 'object',
     properties: {
+        _id: { type: 'string' },
         name: { type: 'string' },
         image: { type: 'string' },
-        description: { type: 'string' },
+        price: { type: 'number' },
         brand: { type: 'string' },
         category: { type: 'string' },
-        price: { type: 'number' },
-        isNatural: { type: 'boolean', default: false },
+        description: { type: 'string' },
         inStockCount: { type: 'number', default: 0 },
+        isNatural: { type: 'boolean', default: false },
         rating: { type: 'number', default: 0 },
         reviewCount: { type: 'number', default: 0 },
         createdAt: { type: 'number', default: Date.now() },
+        updatedAt: { type: 'number', default: Date.now() },
     },
-    required: ['name', 'image', 'description', 'brand', 'category', 'price'],
+    required: ['_id', 'name', 'image', 'price', 'brand', 'category', 'description'],
 };
 
-export { productModel as productSchema, reviewModel as reviewSchema };
+export { productModel as productSchema };

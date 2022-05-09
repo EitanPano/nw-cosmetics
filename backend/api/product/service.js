@@ -38,11 +38,13 @@ async function getById(productId) {
 
 async function add(product) {
     try {
+        delete product._id;
         const collection = await dbService.getCollection('product');
-        const addedProduct = await collection.insertOne(product);
-        // Sometimes you have to add ".ops[0]" to the added product
+        const { insertedId } = await collection.insertOne(product);
+        product._id = ObjectId(insertedId);
+        
         logger.info(`Product ID: ${product._id} has been added.`);
-        return addedProduct;
+        return product;
     } catch (err) {
         logger.error('cannot insert product', err);
         throw err;
@@ -52,12 +54,17 @@ async function add(product) {
 async function update(product) {
     try {
         const _id = ObjectId(product._id);
-        delete product._id;
+        const updatedProduct = {
+            ...product,
+            _id,
+            updatedAt: Date.now(),
+        };
+
         const collection = await dbService.getCollection('product');
-        await collection.updateOne({ _id }, { $set: { ...product } });
-        product._id = ObjectId(_id);
-        logger.info(`Product ID: ${product._id} has been updated.`);
-        return product;
+        await collection.updateOne({ _id }, { $set: { ...updatedProduct } });
+
+        logger.info(`Product ID: ${updatedProduct._id} has been updated.`);
+        return updatedProduct;
     } catch (err) {
         logger.error(`cannot update product ${product._id}`, err);
         throw err;
@@ -68,6 +75,7 @@ async function remove(productId) {
     try {
         const collection = await dbService.getCollection('product');
         await collection.deleteOne({ _id: ObjectId(productId) });
+
         logger.info(`Product ID: ${productId} has been removed.`);
         return productId;
     } catch (err) {
@@ -77,8 +85,8 @@ async function remove(productId) {
 }
 
 function _buildCriteria(filterBy) {
-    // console.log('for criteria',filterBy)
     const criteria = {};
+    // console.log('for criteria',filterBy)
     // if (filterBy.search) {
     // const txtCriteria = { $regex: filterBy.search, $options: 'i' }
     // criteria.name = txtCriteria

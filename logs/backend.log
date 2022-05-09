@@ -331,3 +331,741 @@
 [ 04/05/2022, 18:59:22 ] - INFO - Development Server running on port: 3030  
 [ 04/05/2022, 19:01:50 ] - INFO - Development Server running on port: 3030  
 [ 04/05/2022, 19:01:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: wdxCjDtG1UAgqJjxoxMggVdA9CCmJBhA) 
+[ 06/05/2022, 10:54:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 10:54:25 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -21v3d41r4HTqwQYs_6Xgc7Z9XY_29YU) 
+[ 06/05/2022, 10:58:31 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 12:51:52 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:16:28 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:17:10 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:57:49 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:58:30 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:58:33 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 13:58:38 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 14:00:10 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 14:00:50 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 14:01:08 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:19:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:19:52 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:20:08 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:22:59 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:23:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:24:51 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:28:50 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:28:59 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:29:22 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:30:16 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:32:56 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:33:25 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:33:33 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:35:20 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:36:50 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:37:06 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:37:11 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:37:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:37:37 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:37:51 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:38:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:38:23 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:39:51 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:41:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:48:36 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 15:49:04 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:00:37 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:01:38 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:02:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:06:14 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:06:20 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:09:43 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:09:53 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:11:36 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:11:39 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:12:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:12:59 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:13:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:13:17 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:13:21 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:14:01 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:18:49 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:27:06 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:27:19 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:29:42 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:30:13 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:30:28 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:31:00 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:31:13 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:31:30 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:32:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:33:54 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:38:45 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:44:54 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:46:34 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:47:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:48:28 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:48:41 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:49:49 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:50:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:50:20 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:50:47 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:51:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:53:30 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:54:22 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:54:47 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:56:00 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:56:07 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:56:17 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:56:46 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:57:22 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:57:25 ] - WARN - Invalid data inserted, Check for the required fields. (sid: pjWaYj2y-jn9xWduMXOu8dVfL8Olk-NB) 
+[ 06/05/2022, 16:58:00 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:58:09 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:59:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 16:59:20 ] - WARN - Invalid data inserted, Check for the required fields. (sid: gQ1fTnisFb_BryFkqhrfKy2G3Ux63Q7P) 
+[ 06/05/2022, 17:01:00 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 17:01:02 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -3TYIcKgOND-JRt5-a0oE29Vj-rgqU_3) 
+[ 06/05/2022, 17:01:02 ] - ERROR - Failed to create a new user | ReferenceError: addedProduct is not defined (sid: -3TYIcKgOND-JRt5-a0oE29Vj-rgqU_3) 
+[ 06/05/2022, 17:02:48 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 17:02:55 ] - INFO - MongoDB Connected: nw-cosmetics (sid: CSNHR1ih4vEcs29i6Vn1FXbjmjA0mRrg) 
+[ 06/05/2022, 17:03:12 ] - ERROR - cannot insert user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: email_1 dup key: { email: "abc@wappa.com" } (sid: CSNHR1ih4vEcs29i6Vn1FXbjmjA0mRrg) 
+[ 06/05/2022, 17:03:12 ] - ERROR - Failed to create a new user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: email_1 dup key: { email: "abc@wappa.com" } (sid: CSNHR1ih4vEcs29i6Vn1FXbjmjA0mRrg) 
+[ 06/05/2022, 18:49:45 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:50:15 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:50:46 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:50:48 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:51:24 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:51:50 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:53:06 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:55:19 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:57:43 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:58:56 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:59:05 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:59:13 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 18:59:46 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:00:24 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:01:06 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:03:52 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:04:45 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:08:07 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:08:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: kUN8x2FRTul4ycmqBGiZWEPwsGOEps11) 
+[ 06/05/2022, 19:08:56 ] - ERROR - cannot insert user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: email_1 dup key: { email: "abc@wappa.com" } (sid: kUN8x2FRTul4ycmqBGiZWEPwsGOEps11) 
+[ 06/05/2022, 19:08:56 ] - ERROR - Failed to create a new user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: email_1 dup key: { email: "abc@wappa.com" } (sid: kUN8x2FRTul4ycmqBGiZWEPwsGOEps11) 
+[ 06/05/2022, 19:10:39 ] - ERROR - cannot insert user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: userName_1 dup key: { userName: "Poopsy123" } (sid: kUN8x2FRTul4ycmqBGiZWEPwsGOEps11) 
+[ 06/05/2022, 19:10:39 ] - ERROR - Failed to create a new user | MongoServerError: E11000 duplicate key error collection: nw-cosmetics.user index: userName_1 dup key: { userName: "Poopsy123" } (sid: kUN8x2FRTul4ycmqBGiZWEPwsGOEps11) 
+[ 06/05/2022, 19:22:38 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:22:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cV8cT1zeOFveSpiVW3CkRdSiCVaVgvRU) 
+[ 06/05/2022, 19:22:40 ] - ERROR - Failed to log-in | Invalid username or password (sid: cV8cT1zeOFveSpiVW3CkRdSiCVaVgvRU) 
+[ 06/05/2022, 19:24:04 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:24:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: e1v4yzQvQCb7eI_obbgZbziLMw2S6FSW) 
+[ 06/05/2022, 19:24:06 ] - ERROR - Failed to log-in | Invalid username or password (sid: e1v4yzQvQCb7eI_obbgZbziLMw2S6FSW) 
+[ 06/05/2022, 19:25:04 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:25:10 ] - INFO - MongoDB Connected: nw-cosmetics (sid: U9SU-PTWk8_pSJX03d55t2copLN5vA6x) 
+[ 06/05/2022, 19:25:28 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:26:48 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:27:00 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:27:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:27:11 ] - ERROR - Invalid username or password (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:27:11 ] - ERROR - Failed to log-in | TypeError: Cannot convert undefined or null to object (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:27:21 ] - ERROR - Invalid username or password (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:27:21 ] - ERROR - Failed to log-in | TypeError: Cannot convert undefined or null to object (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:29:32 ] - ERROR - Invalid username or password (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:29:32 ] - ERROR - Failed to log-in | TypeError: Cannot convert undefined or null to object (sid: LbbTFZsLATVDXR4g22rK__d9v9lOepGt) 
+[ 06/05/2022, 19:30:04 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:30:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: YXenYT_C2YYNjo3m8wvHf0axNmd_bdNQ) 
+[ 06/05/2022, 19:30:06 ] - ERROR - Invalid username or password (sid: YXenYT_C2YYNjo3m8wvHf0axNmd_bdNQ) 
+[ 06/05/2022, 19:30:06 ] - ERROR - Failed to log-in | TypeError: Cannot convert undefined or null to object (sid: YXenYT_C2YYNjo3m8wvHf0axNmd_bdNQ) 
+[ 06/05/2022, 19:30:21 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:30:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: OJYviy9oELiVH4jomoJM7o2c6-bC3ggR) 
+[ 06/05/2022, 19:37:18 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:37:25 ] - INFO - MongoDB Connected: nw-cosmetics (sid: yibAS8n1f1GCukeNZ-5Ts54kyUbmem_n) 
+[ 06/05/2022, 19:37:25 ] - ERROR - Invalid username or password (sid: yibAS8n1f1GCukeNZ-5Ts54kyUbmem_n) 
+[ 06/05/2022, 19:37:25 ] - ERROR - Failed to log-in | TypeError: Cannot read properties of null (reading 'password') (sid: yibAS8n1f1GCukeNZ-5Ts54kyUbmem_n) 
+[ 06/05/2022, 19:41:14 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:42:48 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:42:51 ] - ERROR - Invalid username or password (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:42:51 ] - ERROR - Failed to log-in | ReferenceError: username is not defined (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:43:07 ] - ERROR - Invalid username or password (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:43:07 ] - ERROR - Failed to log-in | ReferenceError: username is not defined (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:43:22 ] - ERROR - Invalid username or password (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:43:22 ] - ERROR - Failed to log-in | ReferenceError: username is not defined (sid: B4XGcjgrDQ79f_vnYctf3qVpS8f8QZG6) 
+[ 06/05/2022, 19:44:03 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:44:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: CYVyvjlL7m0nNI-A6wzE6Xvk9bU-JhHf) 
+[ 06/05/2022, 19:44:10 ] - ERROR - Failed to log-in | Invalid username or password (sid: CYVyvjlL7m0nNI-A6wzE6Xvk9bU-JhHf) 
+[ 06/05/2022, 19:44:26 ] - ERROR - Failed to log-in | Invalid username or password (sid: CYVyvjlL7m0nNI-A6wzE6Xvk9bU-JhHf) 
+[ 06/05/2022, 19:45:51 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:45:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ep5OBQ7ZxQs3WdlfUoyPh6R_KpL1Ar_J) 
+[ 06/05/2022, 19:46:03 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:46:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ZTuJN_YVJzCLxGN__JcCAhB7y6qPs3Td) 
+[ 06/05/2022, 19:48:19 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:49:54 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:50:01 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:51:22 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:52:42 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:53:52 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:56:39 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 19:59:13 ] - INFO - Development Server running on port: 3030  
+[ 06/05/2022, 20:02:02 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:31:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:31:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: YXtjCqlsRjFk8jcVrLOpEsSEyT9SugLQ) 
+[ 08/05/2022, 10:31:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4FeiaSED0G_cVuR_3b75tBKxh_z19BMP) 
+[ 08/05/2022, 10:32:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:32:16 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:33:43 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:55:10 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:56:06 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 10:58:49 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:00:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:03:24 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:04:53 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:05:07 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:06:43 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:08:19 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:11:38 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:13:07 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:14:12 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:17:11 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:19:25 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:24:51 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:32:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:35:19 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:37:22 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:48:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:50:00 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 11:50:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 12:01:29 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 12:02:01 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 12:03:53 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 12:09:13 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 12:09:15 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zS7ylILYDGiAvIvUwynoUiZ8cbdnx5Kd) 
+[ 08/05/2022, 12:13:37 ] - ERROR - while finding user 62754a90385f26826c97d25 | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: zS7ylILYDGiAvIvUwynoUiZ8cbdnx5Kd) 
+[ 08/05/2022, 12:13:37 ] - ERROR - Failed to get user | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: zS7ylILYDGiAvIvUwynoUiZ8cbdnx5Kd) 
+[ 08/05/2022, 14:24:12 ] - INFO - Product ID: 62729631d08be70953a7eca7 has been removed. (sid: zS7ylILYDGiAvIvUwynoUiZ8cbdnx5Kd) 
+[ 08/05/2022, 14:25:13 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been added. (sid: zS7ylILYDGiAvIvUwynoUiZ8cbdnx5Kd) 
+[ 08/05/2022, 14:25:51 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:41:04 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:41:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:41:56 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:49:12 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:49:18 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:49:27 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:49:34 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:49:57 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:50:00 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:50:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:51:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:51:49 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:51:55 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:51:59 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:52:07 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:53:05 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:55:32 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:55:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:55:48 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 14:56:04 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:11:34 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:11:48 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:11:55 ] - INFO - MongoDB Connected: nw-cosmetics (sid: RNfVXf01r_3u0CN9gjHmESjBiSmMHhfB) 
+[ 08/05/2022, 15:13:14 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:13:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: awmiMznqg3i8Tg57LSD7hr5mVtTYWxsd) 
+[ 08/05/2022, 15:13:32 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:13:35 ] - INFO - MongoDB Connected: nw-cosmetics (sid: xfDQLGeakG2wXExRvjPBBoZULhDJICL2) 
+[ 08/05/2022, 15:14:00 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:14:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: v54mtrofPL4mArzYWKagKNMCV-qViErA) 
+[ 08/05/2022, 15:15:39 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:15:43 ] - INFO - MongoDB Connected: nw-cosmetics (sid: DBDihzxC78TlOD3tNjIcd52r0OloWjov) 
+[ 08/05/2022, 15:15:57 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:15:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: mlB6AZXg9sa85MOxTqGTI0mPjqJYcN38) 
+[ 08/05/2022, 15:17:26 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:17:29 ] - ERROR - Failed to get products | TypeError: Cannot destructure property 'filterBy' of '(req.query.filterBy ?? null)' as it is null. (sid: PcPhOEdy9jbewTHeyzf_P0mbsPh2Zjd_) 
+[ 08/05/2022, 15:17:40 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:17:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: e3kA1UNomO0Tu5zYK99B1Uu2ItOVLX5s) 
+[ 08/05/2022, 15:18:12 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:18:15 ] - INFO - MongoDB Connected: nw-cosmetics (sid: eE8k6ZmIZGkh3geiXI2zsnnCD5RGDICg) 
+[ 08/05/2022, 15:19:27 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:20:31 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:43:52 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:44:23 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:44:37 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:44:49 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:45:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:45:23 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:58:26 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:59:14 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 15:59:28 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:01:58 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:02:05 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:02:24 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:02:53 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:06:36 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:06:46 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:12:55 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:13:30 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:14:12 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:14:47 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:15:49 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:16:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:16:18 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:16:31 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:18:28 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JABYXCifwmgu64fXWEn6y0x-otGPWmeS) 
+[ 08/05/2022, 16:19:21 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:24:05 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:24:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: VJ6cttJryZxMonkecNbCoPMMIsgsM0H6) 
+[ 08/05/2022, 16:24:06 ] - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object (sid: VJ6cttJryZxMonkecNbCoPMMIsgsM0H6) 
+[ 08/05/2022, 16:24:06 ] - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object (sid: VJ6cttJryZxMonkecNbCoPMMIsgsM0H6) 
+[ 08/05/2022, 16:25:16 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:25:16 ] - INFO - MongoDB Connected: nw-cosmetics (sid: GaLGLJVs1D-Owp_M5qiPgFMh4t6_L73M) 
+[ 08/05/2022, 16:25:16 ] - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object (sid: GaLGLJVs1D-Owp_M5qiPgFMh4t6_L73M) 
+[ 08/05/2022, 16:25:16 ] - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object (sid: GaLGLJVs1D-Owp_M5qiPgFMh4t6_L73M) 
+[ 08/05/2022, 16:27:36 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:27:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: NZYSJTy_eVCsz9lrdH8BTlwqXeQaGptG) 
+[ 08/05/2022, 16:27:39 ] - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object (sid: NZYSJTy_eVCsz9lrdH8BTlwqXeQaGptG) 
+[ 08/05/2022, 16:27:39 ] - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object (sid: NZYSJTy_eVCsz9lrdH8BTlwqXeQaGptG) 
+[ 08/05/2022, 16:29:55 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:29:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: vBDUn0i8u-xeFf9CE-tzHIvp07zF2hOB) 
+[ 08/05/2022, 16:30:45 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 16:30:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: iF7eVfOoumcohCzs8ZEgiDnMbEISESk6) 
+[ 08/05/2022, 17:15:34 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:17:03 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:17:13 ] - INFO - MongoDB Connected: nw-cosmetics (sid: tr0DhD5Vr_9XpIlXeQTawNzzsyCqpmwq) 
+[ 08/05/2022, 17:21:37 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:21:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: y_rkmm7Hjd3JTadEWnWuOdcnJ2kTjUQY) 
+[ 08/05/2022, 17:22:31 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:22:34 ] - INFO - MongoDB Connected: nw-cosmetics (sid: IRK3Qa2eevlGyjJsMlVCQMPsBXcl_AZ2) 
+[ 08/05/2022, 17:22:45 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:23:50 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:24:10 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: fNEUHDY8O3EGkde7en7psbZOdBfu8rKy) 
+[ 08/05/2022, 17:25:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: fNEUHDY8O3EGkde7en7psbZOdBfu8rKy) 
+[ 08/05/2022, 17:29:01 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:29:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _QNNMruYzTsQbwdf9RLg0gfantxwLc4V) 
+[ 08/05/2022, 17:29:44 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:35:22 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:35:23 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4t2uEIzluci0sq7VW4X8l4-rHcp5Kz3B) 
+[ 08/05/2022, 17:35:49 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:37:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: AfbBb2qBgtsUrHNWln8RtuH1doJP0wrW) 
+[ 08/05/2022, 17:37:46 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:37:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 443ttoawGde4WjvLfENqMaBo_hW60F2J) 
+[ 08/05/2022, 17:39:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:39:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: js2cxNGfk4ap1XVCCTCWUv6j4KrwCrxo) 
+[ 08/05/2022, 17:47:10 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:47:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:47:31 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Xg5qeDzb3vTuAezjz7kr1P_tDk8pu26H) 
+[ 08/05/2022, 17:47:59 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:48:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8soPHoXdmPiDjc0fmjROsjeJ5i1m-aMq) 
+[ 08/05/2022, 17:49:06 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 17:49:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: MnnlPY_nQMYxJsyKHgMEODzBK-uQIl4c) 
+[ 08/05/2022, 19:03:46 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:08:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:08:17 ] - INFO - MongoDB Connected: nw-cosmetics (sid: kekGKohi9aC_K7Re-YGCshh_wpAxuA-U) 
+[ 08/05/2022, 19:08:47 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:08:49 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: z1JAPuFOrTy1ov2UQQYjCAu-BY00PHEb) 
+[ 08/05/2022, 19:11:25 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:11:26 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: TXLRhSNy7u45zu25kis6-EkFyMz3bPWZ) 
+[ 08/05/2022, 19:12:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:13:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: CTv2jawPYroSZlyLooDboLRPJkWS6VUm) 
+[ 08/05/2022, 19:14:17 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:14:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 65W9fBrfoaNAWX2Ie8Sr79xi-famsQMp) 
+[ 08/05/2022, 19:16:44 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:16:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1mn6omofPmgVgv9kgok3iyN1acNTX08S) 
+[ 08/05/2022, 19:17:04 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:17:05 ] - INFO - MongoDB Connected: nw-cosmetics (sid: tnA35zwb-mb77nGxBvwcpHg55ocyB9Zv) 
+[ 08/05/2022, 19:17:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:17:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WHPu5QhJ6WA-fDY00XkNjoRHoCDbk9yv) 
+[ 08/05/2022, 19:17:51 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:18:21 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:18:23 ] - INFO - MongoDB Connected: nw-cosmetics (sid: j5KFL1BeuWAmE0f0Lo7PxcgF8BQjcwDo) 
+[ 08/05/2022, 19:19:50 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:21:16 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:21:18 ] - ERROR - Cannot get reviews | TypeError: Found non-callable @@iterator (sid: CWS9juoGspYMPX-jin7KAe6efoZLxbM1) 
+[ 08/05/2022, 19:21:39 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:22:18 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:22:24 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:22:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:22:34 ] - INFO - MongoDB Connected: nw-cosmetics (sid: RKwVZ0qiRh0fBNDNCrG1wal6oZH5thYw) 
+[ 08/05/2022, 19:23:12 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: RKwVZ0qiRh0fBNDNCrG1wal6oZH5thYw) 
+[ 08/05/2022, 19:24:06 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:26:41 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:26:43 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: wLrV8rTsif3JdtJTIoiGmiXCoAEXlddk) 
+[ 08/05/2022, 19:26:55 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:26:57 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: 0iJ5D9L6nIvw2P6Ux02V5IIpXZwJfMDd) 
+[ 08/05/2022, 19:27:13 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:27:13 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: g_mjjcXfTnGfSHijiKeVGk_x3VrDZPPh) 
+[ 08/05/2022, 19:27:20 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:27:21 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: G3Yi3MX25rm7FS4vusQ4FyFpIyOiaFiJ) 
+[ 08/05/2022, 19:27:48 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:29:36 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:30:09 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:44:00 ] - INFO - MongoDB Connected: nw-cosmetics (sid: NPaRjLemCEh-fPtwNDoUwaug20ry83_N) 
+[ 08/05/2022, 19:44:12 ] - ERROR - Cannot get reviews | ReferenceError: filterBy is not defined (sid: NPaRjLemCEh-fPtwNDoUwaug20ry83_N) 
+[ 08/05/2022, 19:44:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:44:36 ] - ERROR - Cannot get reviews | ReferenceError: filterBy is not defined (sid: O2qkz4fA8pJzgN1qfGMg13NEWiGBVLDw) 
+[ 08/05/2022, 19:45:33 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 19:45:50 ] - INFO - MongoDB Connected: nw-cosmetics (sid: o82jErCHDv1ZxuGeRETH5vEy2mxJKO_p) 
+[ 08/05/2022, 20:04:17 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:05:07 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:05:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: iSuFEJJfEDexB6xhwlQmcAlxbDDSMUx0) 
+[ 08/05/2022, 20:05:44 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:06:21 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:06:28 ] - INFO - MongoDB Connected: nw-cosmetics (sid: OIQETarWi_yPNT5_d9EU94FSvupNfCeb) 
+[ 08/05/2022, 20:06:56 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:07:00 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:07:02 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4P0T8rcfywBfDwzYXGeHE8sUYPYNKFS-) 
+[ 08/05/2022, 20:08:53 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:09:09 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:09:15 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _D3JYKgK9-xiAt_Tand178Np4CvaECsL) 
+[ 08/05/2022, 20:12:32 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:12:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ZiAevtNWFgNk8m9a3gaF1n01Yl2RUJ2O) 
+[ 08/05/2022, 20:14:41 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:18:38 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:19:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:22:32 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:22:33 ] - INFO - MongoDB Connected: nw-cosmetics (sid: btkA5NqZopjVOZhGc10E5-lPR_gOkc3A) 
+[ 08/05/2022, 20:27:26 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:27:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1Pj1pyYrPPBBD20Of71qqArdyU0Ov0Sy) 
+[ 08/05/2022, 20:27:30 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: 1Pj1pyYrPPBBD20Of71qqArdyU0Ov0Sy) 
+[ 08/05/2022, 20:28:15 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:28:15 ] - INFO - MongoDB Connected: nw-cosmetics (sid: rHr8rvsq0qP2-JaaPBuw1-VJoYcrD0DA) 
+[ 08/05/2022, 20:32:05 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:32:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9sl4V62C_hDjd_YuDJYhIipsBdoW6QkH) 
+[ 08/05/2022, 20:37:05 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:37:26 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:38:07 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:47:43 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:48:21 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:50:08 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:52:03 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:52:19 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:53:02 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:54:45 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:55:06 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:55:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: YNP3t6dcmGzUnuFujXsifgXsG6QwiCQf) 
+[ 08/05/2022, 20:55:11 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: YNP3t6dcmGzUnuFujXsifgXsG6QwiCQf) 
+[ 08/05/2022, 20:55:36 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:55:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: FZuXAQBsv0w-RqiM51CR0AGwB1T-5Nhw) 
+[ 08/05/2022, 20:55:37 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: FZuXAQBsv0w-RqiM51CR0AGwB1T-5Nhw) 
+[ 08/05/2022, 20:56:29 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:56:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Cj5_C4VRNT1Q9d0l85uMkcwxAk-U5Tn3) 
+[ 08/05/2022, 20:57:53 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 20:57:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: c26JfTf2Hh7Sg8ELzEblDeV_jvH8eeIi) 
+[ 08/05/2022, 20:58:11 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:07:00 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:07:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: XrRkyXfmWymXs0XlipiekKMqqzyOE7At) 
+[ 08/05/2022, 21:08:41 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:08:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 6JyRBKNDV4vXKPgHRoL_Avk4B44MOk3F) 
+[ 08/05/2022, 21:08:42 ] - ERROR - Cannot get reviews | ReferenceError: logger is not defined (sid: 6JyRBKNDV4vXKPgHRoL_Avk4B44MOk3F) 
+[ 08/05/2022, 21:09:30 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:09:45 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:09:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 3WENe7SENOWHcnNKLAloTtIh8nT1EO7p) 
+[ 08/05/2022, 21:09:59 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:12:29 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:13:32 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:15:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 5Y8fM8kbMWgQc6IGJxdJEtUOs6bkiMSC) 
+[ 08/05/2022, 21:15:36 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:21:54 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:21:54 ] - INFO - MongoDB Connected: nw-cosmetics (sid: XQh451Bu56ExZtilzC6wuahIvN4IhkoC) 
+[ 08/05/2022, 21:23:29 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:23:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -kMUBdYFtUxaoCWZyC0VrCQjDb-73EQe) 
+[ 08/05/2022, 21:23:44 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:24:17 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:24:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: a1k7fC1KzCqge4ycfMhO5J5dZNl1iejq) 
+[ 08/05/2022, 21:27:31 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:27:32 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zOCOya8YxCqrQrQvKvTX0rkTOm__U7Bf) 
+[ 08/05/2022, 21:27:52 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:27:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: LGQJjoC_Tfx6hvy0GimBitDCceN7p2wS) 
+[ 08/05/2022, 21:28:19 ] - INFO - Development Server running on port: 3030  
+[ 08/05/2022, 21:28:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: pvpsvcTW7xNoViUNHp6h6f30Gkmk_KC1) 
+[ 08/05/2022, 21:29:40 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:07:51 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:08:16 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1gyy4LEEPA_bVxaoHSV_ZBKEIH-e0V8F) 
+[ 09/05/2022, 10:11:40 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:16:18 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -ab4N5VII51n5m_ZWwE6Cb_ywPccGsQI) 
+[ 09/05/2022, 10:19:00 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:19:05 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:28:09 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:30:27 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:32:24 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:36:15 ] - INFO - MongoDB Connected: nw-cosmetics (sid: oSPQKv1TYMAp9Tr8HzzGn46UWtueHAt6) 
+[ 09/05/2022, 10:38:56 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:39:59 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:43:18 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:46:01 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:46:12 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:46:18 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:49:47 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 10:49:49 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JFeThrYLiLJ0fjynR6f5Yye0A3oBoRFK) 
+[ 09/05/2022, 10:49:49 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: JFeThrYLiLJ0fjynR6f5Yye0A3oBoRFK) 
+[ 09/05/2022, 10:50:14 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:03:23 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:08:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:12:04 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:17:20 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:17:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:18:24 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:20:42 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:32:57 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:33:22 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:33:23 ] - INFO - MongoDB Connected: nw-cosmetics (sid: HAZ5iZADhqsPcTxanOIdu8DTeAKhvTm3) 
+[ 09/05/2022, 11:33:23 ] - INFO - Product ID: 6278d1d3492192a6c3e44397 has been updated. (sid: HAZ5iZADhqsPcTxanOIdu8DTeAKhvTm3) 
+[ 09/05/2022, 11:34:39 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:34:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Q0Kobx7EALnGIo2k3G2txlux9ALleUOc) 
+[ 09/05/2022, 11:34:42 ] - INFO - Product ID: 6278d222ed10d583e3f8339b has been updated. (sid: Q0Kobx7EALnGIo2k3G2txlux9ALleUOc) 
+[ 09/05/2022, 11:35:56 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:36:16 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:39:20 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:40:17 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:40:22 ] - WARN - Invalid data inserted, Check for the required fields. (sid: Dtp1Koh7JHS6-Cu22aEpx0thIAgg-ZCS) 
+[ 09/05/2022, 11:41:31 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:41:32 ] - WARN - Invalid data inserted, Check for the required fields. (sid: qLQ9dNyVvBmP0TnAUUjVRW2Aad0NQnS2) 
+[ 09/05/2022, 11:45:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:47:41 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:48:11 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:48:31 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:51:09 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:53:12 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:54:54 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:54:56 ] - WARN - Invalid data inserted, Check for the required fields. (sid: lQ_7YG-SXfUPWoIyW5FP6_0smbuOvLbQ) 
+[ 09/05/2022, 11:56:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: lQ_7YG-SXfUPWoIyW5FP6_0smbuOvLbQ) 
+[ 09/05/2022, 11:56:49 ] - WARN - Invalid data inserted, Check for the required fields. (sid: lQ_7YG-SXfUPWoIyW5FP6_0smbuOvLbQ) 
+[ 09/05/2022, 11:57:30 ] - WARN - Invalid data inserted, Check for the required fields. (sid: lQ_7YG-SXfUPWoIyW5FP6_0smbuOvLbQ) 
+[ 09/05/2022, 11:58:58 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 11:59:17 ] - WARN - Invalid data inserted, Check for the required fields. (sid: szUsANlr4WuOAo7ZKjdhL9JnStg2Fr3Z) 
+[ 09/05/2022, 12:00:33 ] - WARN - Invalid data inserted, Check for the required fields. (sid: szUsANlr4WuOAo7ZKjdhL9JnStg2Fr3Z) 
+[ 09/05/2022, 12:00:45 ] - WARN - Invalid data inserted, Check for the required fields. (sid: szUsANlr4WuOAo7ZKjdhL9JnStg2Fr3Z) 
+[ 09/05/2022, 12:02:03 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 12:02:08 ] - WARN - Invalid data inserted, Check for the required fields. (sid: zumhRrK3mMu4nQS5vhYoX2DgbzvRXLmX) 
+[ 09/05/2022, 12:02:24 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 12:04:45 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 12:04:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: GdLEJupRwjIH-sjRRogmaO42u1Mt8Apl) 
+[ 09/05/2022, 12:05:01 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 12:05:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 3y7zBeUQf0b8B4Z0QXFo3_0qZGDBe4hl) 
+[ 09/05/2022, 13:01:29 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:04:12 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:05:36 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:06:09 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:06:35 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:44:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:45:27 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:48:27 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:50:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: MXgVteZWJRPA3pSFAWMIJQc4RHmNAgO2) 
+[ 09/05/2022, 13:50:06 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: MXgVteZWJRPA3pSFAWMIJQc4RHmNAgO2) 
+[ 09/05/2022, 13:50:57 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 13:50:58 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WaRHLNMTHjaQVHGTOVTo5pPIqOGFRUoI) 
+[ 09/05/2022, 13:50:58 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: WaRHLNMTHjaQVHGTOVTo5pPIqOGFRUoI) 
+[ 09/05/2022, 14:02:32 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:05:46 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:08:13 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:08:17 ] - INFO - MongoDB Connected: nw-cosmetics (sid: mbaX1VPEMGrhfjQ864BwMY6uUeAmXWc-) 
+[ 09/05/2022, 14:08:17 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: mbaX1VPEMGrhfjQ864BwMY6uUeAmXWc-) 
+[ 09/05/2022, 14:08:17 ] - ERROR - cannot update user 62754a90385f26826c97d25b | ReferenceError: userToSave is not defined (sid: mbaX1VPEMGrhfjQ864BwMY6uUeAmXWc-) 
+[ 09/05/2022, 14:08:17 ] - ERROR - Failed to add review | ReferenceError: userToSave is not defined (sid: mbaX1VPEMGrhfjQ864BwMY6uUeAmXWc-) 
+[ 09/05/2022, 14:08:44 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:09:06 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:09:08 ] - INFO - MongoDB Connected: nw-cosmetics (sid: tpFwwpDha5FyP4D2phSiyLkafs7RWas7) 
+[ 09/05/2022, 14:09:08 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: tpFwwpDha5FyP4D2phSiyLkafs7RWas7) 
+[ 09/05/2022, 14:09:08 ] - ERROR - cannot update user 62754a90385f26826c97d25b | ReferenceError: userToSave is not defined (sid: tpFwwpDha5FyP4D2phSiyLkafs7RWas7) 
+[ 09/05/2022, 14:09:08 ] - ERROR - Failed to add review | ReferenceError: userToSave is not defined (sid: tpFwwpDha5FyP4D2phSiyLkafs7RWas7) 
+[ 09/05/2022, 14:09:26 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:09:32 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:09:33 ] - INFO - MongoDB Connected: nw-cosmetics (sid: washg2XicxSyqUveFyXZ1KXI1OudyusQ) 
+[ 09/05/2022, 14:09:33 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: washg2XicxSyqUveFyXZ1KXI1OudyusQ) 
+[ 09/05/2022, 14:11:24 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: washg2XicxSyqUveFyXZ1KXI1OudyusQ) 
+[ 09/05/2022, 14:29:20 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:29:35 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:29:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cv_Wd7F1RKkLMT0yCs0VCFEVL_9-s2l7) 
+[ 09/05/2022, 14:29:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cv_Wd7F1RKkLMT0yCs0VCFEVL_9-s2l7) 
+[ 09/05/2022, 14:29:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cv_Wd7F1RKkLMT0yCs0VCFEVL_9-s2l7) 
+[ 09/05/2022, 14:29:48 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: cv_Wd7F1RKkLMT0yCs0VCFEVL_9-s2l7) 
+[ 09/05/2022, 14:30:29 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:30:29 ] - ERROR - Failed to add review | TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator)) (sid: zuvzOZwOnTc8Jhc7YZkfgIL1HF95OWt2) 
+[ 09/05/2022, 14:30:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zuvzOZwOnTc8Jhc7YZkfgIL1HF95OWt2) 
+[ 09/05/2022, 14:30:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zuvzOZwOnTc8Jhc7YZkfgIL1HF95OWt2) 
+[ 09/05/2022, 14:30:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zuvzOZwOnTc8Jhc7YZkfgIL1HF95OWt2) 
+[ 09/05/2022, 14:30:39 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:42:39 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:42:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _L66Qmwd0MCPPPTG1xWgVODB2tQfDnti) 
+[ 09/05/2022, 14:42:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _L66Qmwd0MCPPPTG1xWgVODB2tQfDnti) 
+[ 09/05/2022, 14:42:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _L66Qmwd0MCPPPTG1xWgVODB2tQfDnti) 
+[ 09/05/2022, 14:42:48 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: _L66Qmwd0MCPPPTG1xWgVODB2tQfDnti) 
+[ 09/05/2022, 14:45:06 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:45:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8HRvaxLuxslyThZaJNF0qpj3Pzt8s8gF) 
+[ 09/05/2022, 14:45:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8HRvaxLuxslyThZaJNF0qpj3Pzt8s8gF) 
+[ 09/05/2022, 14:45:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8HRvaxLuxslyThZaJNF0qpj3Pzt8s8gF) 
+[ 09/05/2022, 14:45:07 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: 8HRvaxLuxslyThZaJNF0qpj3Pzt8s8gF) 
+[ 09/05/2022, 14:52:41 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:52:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WHt_4Tz6-nB_RbCsKFCACoB1rvDuQgnD) 
+[ 09/05/2022, 14:52:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WHt_4Tz6-nB_RbCsKFCACoB1rvDuQgnD) 
+[ 09/05/2022, 14:52:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WHt_4Tz6-nB_RbCsKFCACoB1rvDuQgnD) 
+[ 09/05/2022, 14:52:44 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: WHt_4Tz6-nB_RbCsKFCACoB1rvDuQgnD) 
+[ 09/05/2022, 14:54:19 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: WHt_4Tz6-nB_RbCsKFCACoB1rvDuQgnD) 
+[ 09/05/2022, 14:55:38 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 14:55:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8MEMPKeithEkbU71rGDW4ojFfuLptw1E) 
+[ 09/05/2022, 14:55:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8MEMPKeithEkbU71rGDW4ojFfuLptw1E) 
+[ 09/05/2022, 14:55:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8MEMPKeithEkbU71rGDW4ojFfuLptw1E) 
+[ 09/05/2022, 14:55:42 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: 8MEMPKeithEkbU71rGDW4ojFfuLptw1E) 
+[ 09/05/2022, 14:59:29 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:01:03 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:01:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: f5N4mKB9JSfZ6z06xxr3qFlZAMfplkxz) 
+[ 09/05/2022, 15:01:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: f5N4mKB9JSfZ6z06xxr3qFlZAMfplkxz) 
+[ 09/05/2022, 15:01:06 ] - INFO - MongoDB Connected: nw-cosmetics (sid: f5N4mKB9JSfZ6z06xxr3qFlZAMfplkxz) 
+[ 09/05/2022, 15:01:06 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: f5N4mKB9JSfZ6z06xxr3qFlZAMfplkxz) 
+[ 09/05/2022, 15:04:58 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:05:09 ] - ERROR - Failed to add review | ReferenceError: logger is not defined (sid: bFI2vXCQjq-W3LIgVZB43zVnF2VqXoMc) 
+[ 09/05/2022, 15:05:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: bFI2vXCQjq-W3LIgVZB43zVnF2VqXoMc) 
+[ 09/05/2022, 15:05:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: bFI2vXCQjq-W3LIgVZB43zVnF2VqXoMc) 
+[ 09/05/2022, 15:05:46 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:05:47 ] - ERROR - cannot insert review | ReferenceError: Cannot access 'reviewToAdd' before initialization (sid: NhVWh3soCSBPOMmcPuPyp4wEcsZSoXeW) 
+[ 09/05/2022, 15:05:47 ] - ERROR - Failed to add review | ReferenceError: Cannot access 'reviewToAdd' before initialization (sid: NhVWh3soCSBPOMmcPuPyp4wEcsZSoXeW) 
+[ 09/05/2022, 15:05:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: NhVWh3soCSBPOMmcPuPyp4wEcsZSoXeW) 
+[ 09/05/2022, 15:05:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: NhVWh3soCSBPOMmcPuPyp4wEcsZSoXeW) 
+[ 09/05/2022, 15:06:04 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:06:05 ] - INFO - MongoDB Connected: nw-cosmetics (sid: gMDKfKSLys6eHNOawXZ6Ji6L_V1AJvgI) 
+[ 09/05/2022, 15:06:05 ] - INFO - MongoDB Connected: nw-cosmetics (sid: gMDKfKSLys6eHNOawXZ6Ji6L_V1AJvgI) 
+[ 09/05/2022, 15:06:05 ] - INFO - MongoDB Connected: nw-cosmetics (sid: gMDKfKSLys6eHNOawXZ6Ji6L_V1AJvgI) 
+[ 09/05/2022, 15:06:05 ] - INFO - Product ID: 6277a8992f06fdaf831fd9f5 has been updated. (sid: gMDKfKSLys6eHNOawXZ6Ji6L_V1AJvgI) 
+[ 09/05/2022, 15:08:16 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:10:34 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:12:51 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 5dj-rVEgKLsmyusCHX3ddcKvEVF3O5-q) 
+[ 09/05/2022, 15:16:05 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:16:15 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:16:34 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ctQ9UvI_rzxtuqrpILuq1MQBJIqVD_sN) 
+[ 09/05/2022, 15:17:14 ] - ERROR - cannot find reviews | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: ctQ9UvI_rzxtuqrpILuq1MQBJIqVD_sN) 
+[ 09/05/2022, 15:17:14 ] - ERROR - Cannot get reviews | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: ctQ9UvI_rzxtuqrpILuq1MQBJIqVD_sN) 
+[ 09/05/2022, 15:21:15 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:23:02 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:23:10 ] - INFO - MongoDB Connected: nw-cosmetics (sid: gsS3QMBg63Asb_POmkS7B1u4TGMCJftw) 
+[ 09/05/2022, 15:23:10 ] - INFO - Product ID: 627907ae0b06b2196f65b4f1 has been added. (sid: gsS3QMBg63Asb_POmkS7B1u4TGMCJftw) 
+[ 09/05/2022, 15:31:46 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:32:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Mv-xW0iNCXPIoTdWefghVzD6dyRCkNoV) 
+[ 09/05/2022, 15:32:21 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been added. (sid: Mv-xW0iNCXPIoTdWefghVzD6dyRCkNoV) 
+[ 09/05/2022, 15:34:28 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:34:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: tLZFGz-QuBXkSlYYXLAUr7p9oHdLZlmb) 
+[ 09/05/2022, 15:34:57 ] - INFO - Product ID: 62790a71d6ee3b17c0bbd28e has been updated. (sid: tLZFGz-QuBXkSlYYXLAUr7p9oHdLZlmb) 
+[ 09/05/2022, 15:36:31 ] - INFO - Product ID: 62790acfd6ee3b17c0bbd28f has been updated. (sid: tLZFGz-QuBXkSlYYXLAUr7p9oHdLZlmb) 
+[ 09/05/2022, 15:37:33 ] - INFO - Product ID: 62790b0dd6ee3b17c0bbd290 has been updated. (sid: tLZFGz-QuBXkSlYYXLAUr7p9oHdLZlmb) 
+[ 09/05/2022, 15:38:05 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:41:35 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:42:31 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QgbpsbhB1KreDBI4TegRM2jgdgjVPN_-) 
+[ 09/05/2022, 15:42:31 ] - INFO - Product ID: 62790c3775aadea6bdddd7ae has been updated. (sid: QgbpsbhB1KreDBI4TegRM2jgdgjVPN_-) 
+[ 09/05/2022, 15:53:31 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:53:42 ] - INFO - MongoDB Connected: nw-cosmetics (sid: VW7oZIgR9RrIrRDt8dhOQlk8vrzlyczQ) 
+[ 09/05/2022, 15:53:42 ] - ERROR - cannot update product undefined | ReferenceError: _id is not defined (sid: VW7oZIgR9RrIrRDt8dhOQlk8vrzlyczQ) 
+[ 09/05/2022, 15:53:42 ] - ERROR - Failed to update product | ReferenceError: _id is not defined (sid: VW7oZIgR9RrIrRDt8dhOQlk8vrzlyczQ) 
+[ 09/05/2022, 15:55:31 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:55:32 ] - ERROR - Failed to update product | ReferenceError: product is not defined (sid: -ojHoo4TNLCe9Mz5DbappQk9qwnXTBOd) 
+[ 09/05/2022, 15:56:18 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:56:20 ] - ERROR - Failed to update product | ReferenceError: product is not defined (sid: Vwi9iv5GE_8nGiG1r9j7vBd0mV0WmLmg) 
+[ 09/05/2022, 15:56:43 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 15:56:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 0bqV-qc5WjyhNd7nI11x5uiSx660BZB-) 
+[ 09/05/2022, 15:56:45 ] - INFO - Product ID: 62790f8df9ebfd4def0fe494 has been updated. (sid: 0bqV-qc5WjyhNd7nI11x5uiSx660BZB-) 
+[ 09/05/2022, 15:56:50 ] - INFO - Product ID: 62790f92f9ebfd4def0fe495 has been updated. (sid: 0bqV-qc5WjyhNd7nI11x5uiSx660BZB-) 
+[ 09/05/2022, 15:59:52 ] - INFO - Product ID: 62791048f9ebfd4def0fe496 has been updated. (sid: 0bqV-qc5WjyhNd7nI11x5uiSx660BZB-) 
+[ 09/05/2022, 16:01:52 ] - INFO - Product ID: 627910c0f9ebfd4def0fe497 has been updated. (sid: 0bqV-qc5WjyhNd7nI11x5uiSx660BZB-) 
+[ 09/05/2022, 16:03:13 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:03:16 ] - INFO - MongoDB Connected: nw-cosmetics (sid: p9yiGLk7pChtcv9HEmCT92iyc7pyy9NZ) 
+[ 09/05/2022, 16:03:16 ] - INFO - Product ID: undefined has been updated. (sid: p9yiGLk7pChtcv9HEmCT92iyc7pyy9NZ) 
+[ 09/05/2022, 16:05:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:05:54 ] - INFO - MongoDB Connected: nw-cosmetics (sid: x8cD_7_hssGirMYuwpMMYF0NZklNQ9Rb) 
+[ 09/05/2022, 16:05:54 ] - INFO - Product ID: 627911b252df749494fabc30 has been updated. (sid: x8cD_7_hssGirMYuwpMMYF0NZklNQ9Rb) 
+[ 09/05/2022, 16:06:30 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:06:31 ] - INFO - MongoDB Connected: nw-cosmetics (sid: FdaeKYISHKPAtfPC6_OPvIdrjl1qkCLl) 
+[ 09/05/2022, 16:06:31 ] - INFO - Product ID: 627911d7e9063cbb6c2c25b8 has been updated. (sid: FdaeKYISHKPAtfPC6_OPvIdrjl1qkCLl) 
+[ 09/05/2022, 16:07:20 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:07:22 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JbYqY-6-lIEnAlqWEjH-QaDaDXBHdcCZ) 
+[ 09/05/2022, 16:07:22 ] - INFO - Product ID: 6279120a33ee84d7d4a7b8b2 has been updated. (sid: JbYqY-6-lIEnAlqWEjH-QaDaDXBHdcCZ) 
+[ 09/05/2022, 16:08:02 ] - INFO - Product ID: 6279123233ee84d7d4a7b8b3 has been updated. (sid: JbYqY-6-lIEnAlqWEjH-QaDaDXBHdcCZ) 
+[ 09/05/2022, 16:09:19 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:09:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: HI6DL0VWtdLZkvAHMqtnp5aJlfhEWWPt) 
+[ 09/05/2022, 16:09:19 ] - INFO - Product ID: 6279127f2c7acacab6389504 has been updated. (sid: HI6DL0VWtdLZkvAHMqtnp5aJlfhEWWPt) 
+[ 09/05/2022, 16:10:38 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:11:28 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:11:28 ] - INFO - MongoDB Connected: nw-cosmetics (sid: a5Ag3KlObj7WgJfXWwwmAxLr57fUDfWg) 
+[ 09/05/2022, 16:11:28 ] - INFO - Product ID: 62791300eed0c3b58eff5199 has been updated. (sid: a5Ag3KlObj7WgJfXWwwmAxLr57fUDfWg) 
+[ 09/05/2022, 16:11:40 ] - INFO - Product ID: 6279130ceed0c3b58eff519a has been updated. (sid: a5Ag3KlObj7WgJfXWwwmAxLr57fUDfWg) 
+[ 09/05/2022, 16:11:44 ] - INFO - Product ID: 62791310eed0c3b58eff519b has been updated. (sid: a5Ag3KlObj7WgJfXWwwmAxLr57fUDfWg) 
+[ 09/05/2022, 16:11:53 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:11:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9KI8SE5M44UXgOzEHAcRw-WTUGiL4xa-) 
+[ 09/05/2022, 16:11:53 ] - INFO - Product ID: 627913190606d76c81d10e06 has been updated. (sid: 9KI8SE5M44UXgOzEHAcRw-WTUGiL4xa-) 
+[ 09/05/2022, 16:12:32 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:12:32 ] - ERROR - cannot update product undefined | TypeError: Cannot destructure property '_id' of 'product._id' as it is undefined. (sid: 2MBcIR5dkfxDXSZ8c4HKPbHkBrjkl31b) 
+[ 09/05/2022, 16:12:32 ] - ERROR - Failed to update product | TypeError: Cannot destructure property '_id' of 'product._id' as it is undefined. (sid: 2MBcIR5dkfxDXSZ8c4HKPbHkBrjkl31b) 
+[ 09/05/2022, 16:13:03 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:13:05 ] - INFO - MongoDB Connected: nw-cosmetics (sid: A61YviPH9zFv6D_V_Hz06aFGD96QIfeK) 
+[ 09/05/2022, 16:13:05 ] - INFO - Product ID: undefined has been updated. (sid: A61YviPH9zFv6D_V_Hz06aFGD96QIfeK) 
+[ 09/05/2022, 16:14:55 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:14:55 ] - INFO - MongoDB Connected: nw-cosmetics (sid: W1n2I1_DZBm2K0uVak8i15sDU2wyLQbC) 
+[ 09/05/2022, 16:14:55 ] - INFO - Product ID: 627913cf9bdc8a3965a07448 has been updated. (sid: W1n2I1_DZBm2K0uVak8i15sDU2wyLQbC) 
+[ 09/05/2022, 16:18:34 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:18:36 ] - INFO - MongoDB Connected: nw-cosmetics (sid: DrRXhjSVnY92ovmUDeCV2iOzyuxhKv8f) 
+[ 09/05/2022, 16:18:36 ] - INFO - Product ID: 627914ac4fe78a62d5f2b73e has been updated. (sid: DrRXhjSVnY92ovmUDeCV2iOzyuxhKv8f) 
+[ 09/05/2022, 16:19:01 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:19:02 ] - INFO - MongoDB Connected: nw-cosmetics (sid: kA_5T-uNwSD4w59HLWlKevvC4icQu9Sh) 
+[ 09/05/2022, 16:19:02 ] - INFO - Product ID: 627914c6675f982094d86400 has been updated. (sid: kA_5T-uNwSD4w59HLWlKevvC4icQu9Sh) 
+[ 09/05/2022, 16:19:35 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:19:35 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _WBnR20VqHacXS-tMP8qiuzehewlE299) 
+[ 09/05/2022, 16:19:35 ] - INFO - Product ID: 627914e7227425ad29c9feb8 has been updated. (sid: _WBnR20VqHacXS-tMP8qiuzehewlE299) 
+[ 09/05/2022, 16:20:13 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:20:57 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:21:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: RdEBgb_XxWG8dQhdaC105wtmqQHTt6Q9) 
+[ 09/05/2022, 16:21:38 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: RdEBgb_XxWG8dQhdaC105wtmqQHTt6Q9) 
+[ 09/05/2022, 16:23:01 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:23:02 ] - ERROR - Failed to update product | ReferenceError: product is not defined (sid: MN6nakhppQ1lxKWcESlYv2F-sSuwG_Ms) 
+[ 09/05/2022, 16:23:17 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:23:17 ] - ERROR - Failed to update product | ReferenceError: product is not defined (sid: _QQAX7wGDMHk585B9CDILZ10EsU7dpCU) 
+[ 09/05/2022, 16:23:54 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:23:54 ] - INFO - MongoDB Connected: nw-cosmetics (sid: l09L3SDji-M3vKpjC__YNCJlw_Y6yqjl) 
+[ 09/05/2022, 16:23:54 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: l09L3SDji-M3vKpjC__YNCJlw_Y6yqjl) 
+[ 09/05/2022, 16:25:08 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:25:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: t-n-fPh0p-fXONQurca1umabnMDS1Gal) 
+[ 09/05/2022, 16:25:11 ] - INFO - Product ID: undefined has been updated. (sid: t-n-fPh0p-fXONQurca1umabnMDS1Gal) 
+[ 09/05/2022, 16:25:33 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:25:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Hq4gcVdIVhX3_hcK0tjOi1SRSAWwRS5Z) 
+[ 09/05/2022, 16:25:37 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: Hq4gcVdIVhX3_hcK0tjOi1SRSAWwRS5Z) 
+[ 09/05/2022, 16:26:50 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:27:01 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:27:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: UVITrU76HVYiIcnibqxeuQI7Pjce_Uek) 
+[ 09/05/2022, 16:27:01 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: UVITrU76HVYiIcnibqxeuQI7Pjce_Uek) 
+[ 09/05/2022, 16:30:21 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:30:24 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:30:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 5WzPByVx8fl8Fhp8WPMdPVj6cey1jraY) 
+[ 09/05/2022, 16:30:39 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: 5WzPByVx8fl8Fhp8WPMdPVj6cey1jraY) 
+[ 09/05/2022, 16:30:48 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: 5WzPByVx8fl8Fhp8WPMdPVj6cey1jraY) 
+[ 09/05/2022, 16:33:57 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:35:56 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:37:04 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:37:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -weSG9vZXl1cLwONTY4kySLP2oXeislW) 
+[ 09/05/2022, 16:37:05 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: -weSG9vZXl1cLwONTY4kySLP2oXeislW) 
+[ 09/05/2022, 16:40:18 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:40:24 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:41:07 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:43:19 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:43:59 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:46:20 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:48:49 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:50:49 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:50:53 ] - WARN - Invalid data inserted, Check for the required fields. (sid: g4mBAUIFdwpIo6Pin5OC72RuU8hSes8X) 
+[ 09/05/2022, 16:51:42 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | TypeError: ObjectId(...).getTimeStamp is not a function (sid: g4mBAUIFdwpIo6Pin5OC72RuU8hSes8X) 
+[ 09/05/2022, 16:51:42 ] - ERROR - Failed to update product | TypeError: ObjectId(...).getTimeStamp is not a function (sid: g4mBAUIFdwpIo6Pin5OC72RuU8hSes8X) 
+[ 09/05/2022, 16:52:05 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:52:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Sx39TAApavm7JCo2HSuNYx6pOLkNWmvo) 
+[ 09/05/2022, 16:52:07 ] - INFO - Product ID: 627909d58bf3a89a6a44f864 has been updated. (sid: Sx39TAApavm7JCo2HSuNYx6pOLkNWmvo) 
+[ 09/05/2022, 16:52:56 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:53:05 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | TypeError: _id.getTimeStamp is not a function (sid: 1mUCM4Bzs-QdbvCs4xaj54MmyMgfX8On) 
+[ 09/05/2022, 16:53:05 ] - ERROR - Failed to update product | TypeError: _id.getTimeStamp is not a function (sid: 1mUCM4Bzs-QdbvCs4xaj54MmyMgfX8On) 
+[ 09/05/2022, 16:53:19 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:53:20 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | TypeError: ObjectId(...).getTimeStamp is not a function (sid: SZDOW7MrIo0u4sYcuaATaACEo_nyOuLC) 
+[ 09/05/2022, 16:53:20 ] - ERROR - Failed to update product | TypeError: ObjectId(...).getTimeStamp is not a function (sid: SZDOW7MrIo0u4sYcuaATaACEo_nyOuLC) 
+[ 09/05/2022, 16:53:47 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:53:49 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | TypeError: ObjectId(...).getTimeStamp is not a function (sid: lPAWq4N8-ybKoZMbeI0x8qbniflYeuKl) 
+[ 09/05/2022, 16:53:49 ] - ERROR - Failed to update product | TypeError: ObjectId(...).getTimeStamp is not a function (sid: lPAWq4N8-ybKoZMbeI0x8qbniflYeuKl) 
+[ 09/05/2022, 16:54:14 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:57:34 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:57:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: A17sVELMGclv9z3WF4LTpZr8axfot69a) 
+[ 09/05/2022, 16:57:37 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | ReferenceError: id is not defined (sid: A17sVELMGclv9z3WF4LTpZr8axfot69a) 
+[ 09/05/2022, 16:57:37 ] - ERROR - Failed to update product | ReferenceError: id is not defined (sid: A17sVELMGclv9z3WF4LTpZr8axfot69a) 
+[ 09/05/2022, 16:57:45 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 16:57:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: EZlYKkbObbO4J2zVqDQPyeUg7daFKUWT) 
+[ 09/05/2022, 16:57:46 ] - ERROR - cannot update product 627909d58bf3a89a6a44f864 | TypeError: ObjectId(...).getTimeStamp is not a function (sid: EZlYKkbObbO4J2zVqDQPyeUg7daFKUWT) 
+[ 09/05/2022, 16:57:46 ] - ERROR - Failed to update product | TypeError: ObjectId(...).getTimeStamp is not a function (sid: EZlYKkbObbO4J2zVqDQPyeUg7daFKUWT) 
+[ 09/05/2022, 16:58:05 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 17:05:50 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 17:05:57 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 17:09:41 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 17:09:45 ] - INFO - Development Server running on port: 3030  
+[ 09/05/2022, 17:09:58 ] - INFO - Development Server running on port: 3030  

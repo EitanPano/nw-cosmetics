@@ -1,33 +1,54 @@
 import logger from '../services/logger.service.js';
 import Ajv from 'ajv';
-import { productSchema } from '../models/productModel.js';
 
-const ajv = new Ajv({ allErrors: true, useDefaults: true, removeAdditional: "all" });
+import { productSchema } from '../models/productModel.js';
+import { userSchema } from '../models/userModel.js';
+import { orderSchema } from '../models/orderModel.js';
+import { reviewSchema } from '../models/reviewModel.js';
+
+const ajv = new Ajv({
+    allErrors: true,
+    useDefaults: true,
+    removeAdditional: 'all',
+});
+
+const models = ['product', 'signup', 'order', 'review', 'user'];
 
 const validateData = (req, res, next) => {
-    const modelName = req.baseUrl.split('/').pop();
+    // console.log('req.body', req.body)
+    const currModel = getUrlPath(req.originalUrl);
+    console.log('currModel', currModel);
+    // = req.originalUrl.split('/').filter((str) => str !== '').pop();
     const dataModel = req.body;
-    
-    const validate = ajv.compile(schemaSwitch(modelName));
+
+    const validate = ajv.compile(schemaSwitch(currModel));
     const isValid = validate(dataModel);
-    
+
     if (!isValid) {
         logger.warn('Invalid data inserted, Check for the required fields.');
         res.status(400).end('Invalid data insertion attempt.');
         return;
     }
-    
+
     next();
 };
 
-const schemaSwitch = (modelName) => {
-    switch (modelName) {
+const getUrlPath = (path) => {
+    return models.filter(model => path.split('/').includes(model))[0];
+};
+
+const schemaSwitch = (model) => {
+    switch (model) {
         case 'product':
             return productSchema;
-        case 'user':
+        case 'signup':
             return userSchema;
         case 'order':
             return orderSchema;
+        case 'review':
+            return reviewSchema;
+        case 'user':
+            return userSchema;
     }
 };
 
