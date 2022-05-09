@@ -4,8 +4,8 @@ import { fileURLToPath } from 'url';
 import { createServer } from 'http';
 
 // Config Files
-import { session } from './config/session-config.js';
-import { getStaticFilePath } from './config/static-file-config.js';
+import { session } from './config/session.config.js';
+import { getStaticFilePath } from './config/static-file.config.js';
 
 import dotenv from 'dotenv';
 dotenv.config();

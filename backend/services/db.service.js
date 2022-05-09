@@ -1,5 +1,5 @@
 import logger from './logger.service.js';
-import { dbURL } from '../config/db-config.js';
+import { dbURL } from '../config/db.config.js';
 import { MongoClient } from 'mongodb';
 
 // Database Name
