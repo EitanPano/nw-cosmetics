@@ -5,6 +5,7 @@ import logger from '../../services/logger.service.js';
 
 async function getProducts(req, res) {
     try {
+        console.log('req.query', req.query)
         const queryParams = req.query;
         const products = await productService.query(queryParams);
         // const products = _products;

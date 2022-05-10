@@ -1,0 +1,203 @@
+[ 10/05/2022, 12:25:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 12:26:25 ] - INFO - MongoDB Connected: nw-cosmetics (sid: vNpRKxNso0UPt6rk2AiQWLccc-pVdgJM) 
+[ 10/05/2022, 12:27:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 12:27:59 ] - ERROR - Cannot Connect to DB | TypeError: client.db is not a function (sid: OWNGxedOwhb5kAW63ARdyZrlEO-MgA6Q) 
+[ 10/05/2022, 12:27:59 ] - ERROR - Failed to get Mongo collection | TypeError: client.db is not a function (sid: OWNGxedOwhb5kAW63ARdyZrlEO-MgA6Q) 
+[ 10/05/2022, 12:27:59 ] - ERROR - cannot find products | TypeError: client.db is not a function (sid: OWNGxedOwhb5kAW63ARdyZrlEO-MgA6Q) 
+[ 10/05/2022, 12:27:59 ] - ERROR - Failed to get products | TypeError: client.db is not a function (sid: OWNGxedOwhb5kAW63ARdyZrlEO-MgA6Q) 
+[ 10/05/2022, 12:27:59 ] - ERROR - Cannot Connect to DB | TypeError: client.db is not a function (sid: CGj1of_qBcVfUOhQK0VTxY-cMJ84mTSO) 
+[ 10/05/2022, 12:27:59 ] - ERROR - Failed to get Mongo collection | TypeError: client.db is not a function (sid: CGj1of_qBcVfUOhQK0VTxY-cMJ84mTSO) 
+[ 10/05/2022, 12:27:59 ] - ERROR - cannot find products | TypeError: client.db is not a function (sid: CGj1of_qBcVfUOhQK0VTxY-cMJ84mTSO) 
+[ 10/05/2022, 12:27:59 ] - ERROR - Failed to get products | TypeError: client.db is not a function (sid: CGj1of_qBcVfUOhQK0VTxY-cMJ84mTSO) 
+[ 10/05/2022, 12:29:42 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 12:29:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: T0itM57h_B0KtI-8Sc9hT1SR30djKT_9) 
+[ 10/05/2022, 12:29:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: V3BmvuTW-poz0JrkQvqDXRKjMOTuWNE6) 
+[ 10/05/2022, 12:56:30 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:04:26 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:04:37 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:05:10 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:07:13 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:08:08 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:08:08 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1Pla7uevWUBD2O81tDHEpHOZSRS7xLc9) 
+[ 10/05/2022, 13:08:39 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:08:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: K-S6EqrtOjGajm685zzRuSVTKP4bCLnh) 
+[ 10/05/2022, 13:15:20 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:15:22 ] - INFO - MongoDB Connected: nw-cosmetics (sid: vgPWKKS6TqFIyt93Qjpe48H_9z8LiK_3) 
+[ 10/05/2022, 13:15:22 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ufTHJHvpayD-acCd0kgcrnjJe4lUa7qW) 
+[ 10/05/2022, 13:17:18 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:17:19 ] - ERROR - Failed to get products | TypeError: req.query.sort is not a function (sid: qa5SAn55NDvd4mwYf3vVNyWoXb5UgKoJ) 
+[ 10/05/2022, 13:17:19 ] - ERROR - Failed to get products | TypeError: req.query.sort is not a function (sid: Bs3zrr9v28h6PVyELyy2Tl4I4BXx0IYH) 
+[ 10/05/2022, 13:17:41 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:17:43 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cNcfD7hhS5p_8kZSIs6mJGMapecS56ab) 
+[ 10/05/2022, 13:17:43 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Zxh7KIQswRxFAb9k6h3RTPN9MTjUL9YJ) 
+[ 10/05/2022, 13:21:43 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:23:33 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:24:14 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:25:21 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:26:18 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:26:32 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:26:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:27:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: m0-BUu5iBy6ryjwxjkzRPsbGUBOtMuVJ) 
+[ 10/05/2022, 13:27:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: md_fA4G7rfEfiB7mTUi8tXQSUcbcoY5J) 
+[ 10/05/2022, 13:30:00 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:30:00 ] - INFO - MongoDB Connected: nw-cosmetics (sid: pztBqP_lS4smGGNfh8AQUd-8XiGbPqm5) 
+[ 10/05/2022, 13:30:11 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:30:17 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:30:17 ] - INFO - MongoDB Connected: nw-cosmetics (sid: YkRVF3DtjdmUeaz6KJ0yOC1hefkKTkZ_) 
+[ 10/05/2022, 13:34:47 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:35:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:35:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 5gdaPQTLqmgCcgWjQjtnorI1TFGorzPL) 
+[ 10/05/2022, 13:36:13 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:36:14 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 6fBKzMbp5b_zr4oqdXb-fDyWm40Qa1Zb) 
+[ 10/05/2022, 13:38:20 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:38:20 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Nuuow2U8uMFv_XeHR--4pngdujETxZcf) 
+[ 10/05/2022, 13:40:33 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:40:33 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WsRWNfi8G45OAweuc8bleQdxKyEFMl5n) 
+[ 10/05/2022, 13:41:00 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:41:00 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8J4BMwuPXBnJttLmd2skHpYddlJKbVWj) 
+[ 10/05/2022, 13:41:57 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:42:03 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:42:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ZrO3G5guwJQAH0qBvTNs_t6iB4t2ApLN) 
+[ 10/05/2022, 13:42:37 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:42:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zyH_gXAqs5nWyU5jZFP7Cu0DCtUKqKnx) 
+[ 10/05/2022, 13:42:52 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:43:11 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:43:55 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:44:02 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:44:22 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:44:24 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:44:28 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:44:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:45:25 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:45:39 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:45:47 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:45:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QSIuqlk_btBBiJHdpiijt6--9OgFKMSM) 
+[ 10/05/2022, 13:46:07 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:46:07 ] - INFO - MongoDB Connected: nw-cosmetics (sid: XZb5mIOi0nXteYT0cbrAr4z68ls2_YBi) 
+[ 10/05/2022, 13:46:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:46:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ybcTKTI6ux45JawiY5GIZhKBS-Sx1yld) 
+[ 10/05/2022, 13:48:44 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:48:44 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1ChObEW00im6hSmhWwBmskittyzfxkK6) 
+[ 10/05/2022, 13:49:40 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:55:37 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 13:55:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: oLArouCU-IHwiySv6HG7a78urXBOM0H6) 
+[ 10/05/2022, 13:59:37 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:00:01 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:00:01 ] - INFO - MongoDB Connected: nw-cosmetics (sid: BKX5RWkQhyMSj3HpsoF4yAa1qYWsUZS-) 
+[ 10/05/2022, 14:00:23 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:00:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:00:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: DoTXo188nKTDWl42-4lXq45xb1A0R9sK) 
+[ 10/05/2022, 14:01:51 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:02:39 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:02:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: SE_ul5IjCg5wTNf01ssrDCKwzTD6sBCi) 
+[ 10/05/2022, 14:02:57 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:07:27 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:07:43 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:09:44 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:12:31 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:12:35 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:13:46 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:14:05 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:14:09 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:14:20 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:14:29 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:14:34 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:26:23 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:26:38 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:27:30 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:28:42 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:28:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:30:07 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:33:40 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:33:44 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 14:57:34 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:01:20 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:01:36 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:11:03 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:11:17 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:11:23 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:13:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:14:13 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:15:14 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:15:21 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:15:31 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:18:19 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:18:41 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:21:03 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:29:27 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:29:35 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:30:00 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:30:29 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:32:40 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:33:14 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:33:21 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:33:30 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:34:28 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:34:30 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:34:38 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:34:45 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:35:18 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:35:49 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:35:55 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:45:15 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:45:32 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:48:44 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:48:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:49:40 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:49:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:52:09 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:53:59 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:55:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:56:08 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:56:16 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:56:36 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:57:52 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:58:32 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 15:58:36 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:01:18 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:01:32 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:01:42 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:02:10 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:04:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:04:36 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:57:43 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 16:58:25 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:02:03 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:02:29 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:02:48 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:06:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:07:35 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:09:24 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:10:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:10:12 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:10:17 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:10:24 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:11:14 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:11:29 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:12:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:12:14 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:13:49 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:14:09 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:14:17 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:15:05 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:15:34 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:17:19 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:18:37 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:18:48 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:18:53 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:20:39 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:21:02 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:21:06 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:23:18 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:23:49 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:24:09 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:24:15 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:24:23 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:26:33 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:27:30 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:27:58 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:29:02 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:29:23 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:29:44 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:30:47 ] - INFO - Development Server running on port: 3030  
+[ 10/05/2022, 17:30:54 ] - INFO - Development Server running on port: 3030  

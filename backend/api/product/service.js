@@ -5,14 +5,9 @@ import { ObjectId } from 'mongodb';
 async function query(filterBy) {
     try {
         // console.log('filterBy', filterBy);
-        const criteria = _buildCriteria(filterBy);
-        const sortCriteria = {};
-        if (filterBy.sort) {
-            if (filterBy.sort === 'Name') sortCriteria.name = 1;
-            else if (filterBy.sort === 'Price') sortCriteria.price = 1;
-            else sortCriteria.createAt = 1;
-        }
-        // console.log('sortCriteria', sortCriteria);
+        const [criteria, sortCriteria] = _buildCriterias(filterBy);
+        console.log('criteria, sortCriteria', criteria, sortCriteria);
+
         const collection = await dbService.getCollection('product');
         const products = await collection
             .find(criteria)
@@ -42,7 +37,7 @@ async function add(product) {
         const collection = await dbService.getCollection('product');
         const { insertedId } = await collection.insertOne(product);
         product._id = ObjectId(insertedId);
-        
+
         logger.info(`Product ID: ${product._id} has been added.`);
         return product;
     } catch (err) {
@@ -84,8 +79,10 @@ async function remove(productId) {
     }
 }
 
-function _buildCriteria(filterBy) {
+function _buildCriterias(filterBy) {
     const criteria = {};
+    const sortCriteria = {};
+    const { sortBy } = filterBy
     // console.log('for criteria',filterBy)
     // if (filterBy.search) {
     // const txtCriteria = { $regex: filterBy.search, $options: 'i' }
@@ -101,8 +98,14 @@ function _buildCriteria(filterBy) {
     //         // criteria.labels = { $all: filterBy.labels }
     // }
 
+    // if (sortBy) {
+    //     if (sortBy === 'Name') sortCriteria.name = 1;
+    //     else if (sortBy === 'Price') sortCriteria.price = 1;
+    //     else sortCriteria.createAt = 1;
+    // }
+
     // console.log('criteria:', criteria);
-    return criteria;
+    return [criteria, sortCriteria];
 }
 
 async function _createProducts() {

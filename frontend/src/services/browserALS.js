@@ -1,19 +1,11 @@
-// Local Asynchronous Storage Service Organize
-export const lasso = {
-    query,
-    get,
-    post,
-    put,
-    remove,
-    postMany,
-};
+// Browser Asynchronous Local Storage.
+export default { query, get, post, put, remove, postMany };
 
-async function query(entityType, delay = 500) {
-    var entities = JSON.parse(localStorage.getItem(entityType)) || [];
+async function query(entityType, filterBy = {}, delay = 500) {
+    let entities = JSON.parse(localStorage.getItem(entityType)) || [];
+    if (filterBy) entities = _filter(entities, filterBy);
     return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(entities);
-        }, delay);
+        setTimeout(() => resolve(entities), delay);
     });
 }
 
@@ -60,35 +52,33 @@ async function postMany(entityType, newEntities) {
     });
 }
 
-export const ls = {
-    set: (key, value) => {
-        localStorage.setItem(key, JSON.stringify(value));
-        return value;
-    },
-    get: (key) => {
-        return JSON.parse(localStorage.getItem(key));
-    },
-};
+function _filter(entities, filterBy) {
+    // Define & Destructure filterBy keys
+    let { name, brand, category, minPrice, maxPrice } = filterBy;
+    name = name ? name.toLowerCase() : '';
+    brand = brand ? brand.toLowerCase() : '';
+    category = category ? category.toLowerCase() : '';
 
-export const ss = {
-    set: (key, value) => {
-        sessionStorage.setItem(key, JSON.stringify(value));
-        return value;
-    },
-    get: (key) => {
-        return JSON.parse(sessionStorage.getItem(key));
-    },
-};
+    /// * FilterBy keys should match the Entity keys! * ///
+    return entities.filter(entity =>
+            _filterString(entity.name, name) &&
+            _filterString(entity.brand, brand) &&
+            _filterString(entity.category, category) &&
+            _filterPrice(entity.price, minPrice, maxPrice)
+    );
+}
 
-function _save(entityType, entities) {
+const _filterString = (key, str) => key ? key.toLowerCase().includes(str) : false;
+const _filterPrice = (price, min = 0, max = Infinity) => price >= min && price <= max;
+
+const _save = (entityType, entities) => {
     localStorage.setItem(entityType, JSON.stringify(entities));
 }
 
-function _makeId(length = 5) {
-    var text = '';
-    var possible =
-        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    for (var i = 0; i < length; i++) {
+const _makeId = (length = 5) => {
+    let text = '';
+    const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    for (let i = 0; i < length; i++) {
         text += possible.charAt(Math.floor(Math.random() * possible.length));
     }
     return text;
