@@ -6,6 +6,7 @@ import { Rating } from '../Rating';
 export const ProductPreview = ({ product }) => {
     const navigate = useNavigate()
     
+
     const { _id } = product;
     return (
         <Col sm={6} md={6} lg={4} xl={3}>

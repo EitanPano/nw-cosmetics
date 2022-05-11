@@ -1,0 +1,15 @@
+.loader {
+    display: block;
+    margin: 5em auto;
+    width: em(100px);
+    height: em(100px);
+    color: rgb(170, 235, 180);
+    
+    &>.loader {
+        margin: 1.3em auto;
+        width: em(50px);
+        height: em(50px);
+        color: rgba(170, 235, 180, 0.4);
+
+    }
+}

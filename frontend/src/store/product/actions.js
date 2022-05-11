@@ -8,6 +8,7 @@ export const loadProducts = () => {
             dispatch({ type: 'LOAD_PRODUCTS', products });
         } catch (err) {
             console.log(err);
+            dispatch({type: 'SET_ERROR', error: err.message})
         }
     };
 };

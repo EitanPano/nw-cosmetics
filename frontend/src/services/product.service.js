@@ -18,9 +18,9 @@ async function query(filterBy) {
         let products = await httpService.get(ROUTE_KEY, filterBy);
         // let products = await lassoService.get(ROUTE_KEY, filterBy);
         if (!products || !products.length) products = _loadLocalProducts();
+        // throw new Error('Something went wrong.')
         return products;
     } catch (err) {
-        console.log('err: ', err);
         throw err;
     }
 }

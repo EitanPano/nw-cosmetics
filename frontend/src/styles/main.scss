@@ -1,4 +1,5 @@
 // SETUP
+@import 'setup/functions';
 @import 'setup/bootstrap.min';
 @import 'setup/sanitize';
 
@@ -7,4 +8,6 @@
 @import 'basics/layout';
 
 // COMPONENTS
+@import 'components/loader';
+@import 'components/message';
 @import 'components/card-preview';

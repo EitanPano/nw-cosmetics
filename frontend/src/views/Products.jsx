@@ -1,29 +1,26 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { loadProducts } from '../store/product/actions';
-// import { productService } from '../services/product.service';
 
 import { ProductList } from '../components/products/ProductList';
 import { Container } from 'react-bootstrap';
+import { Message } from '../components/Message';
 
 export const Products = () => {
-    // const [products, setProducts] = useState([])
-    const { products } = useSelector((state) => state.productModule);
+    const { products, error } = useSelector((state) => state.productModule);
+    // const products = []
     const dispatch = useDispatch();
-
-    // const loadProducts = async () => {
-    //     products = dispatch()
-    //     // setProducts(products)
-    // }
 
     useEffect(() => {
         dispatch(loadProducts());
     }, []);
 
+
     return (
         <main className="main-layout">
             <Container>
                 <h2 className="my-3">Our Products</h2>
+                <Message variant='danger'>{error}</Message>
                 <ProductList products={products}></ProductList>
             </Container>
         </main>
