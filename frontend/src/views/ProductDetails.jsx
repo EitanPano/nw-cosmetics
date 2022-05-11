@@ -1,18 +1,20 @@
 import { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
-import { productService } from '../services/productService';
+import { getProductById } from '../store/product/actions';
 
 import { Col, Row, Container, Image, ListGroup, ListGroupItem, Button, } from 'react-bootstrap';
 import { Rating } from '../components/Rating';
 
 export const ProductDetails = () => {
+    const dispatch = useDispatch();
+    const { selectedProduct } = useSelector(state => state.productModule);
     const { id } = useParams();
-    const [selectedProduct, setSelectedProduct] = useState(null);
+    // const [selectedProduct, setSelectedProduct] = useState(null);
 
-    const getProduct = async (id) => {
-        const products = await productService.query();
-        const selectedProduct = products.find((product) => product._id === id);
-        setSelectedProduct(selectedProduct);
+    const getProduct = async () => {
+        // const product = await dispatch(getProductById(id));
+        // setSelectedProduct(product);
     };
 
     const isInStock = () => {
@@ -20,7 +22,8 @@ export const ProductDetails = () => {
     }
 
     useEffect(() => {
-        getProduct(id);
+        // getProduct();
+        dispatch(getProductById(id))
     }, []);
 
     if (!selectedProduct) return null

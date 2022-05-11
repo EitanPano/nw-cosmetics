@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { Container } from 'react-bootstrap';
 import { ProductList } from '../components/products/ProductList';
-import { productService } from '../services/productService';
+import { productService } from '../services/product.service';
 
 export const Home = () => {
     const [products, setProducts] = useState([])
@@ -15,7 +15,6 @@ export const Home = () => {
 
     useEffect(() => {      
         loadProducts()
-        console.log('Hello');
     }, [])
     
 

@@ -1,7 +1,10 @@
-// Browser Asynchronous Local Storage.
-export default { query, get, post, put, remove, postMany };
+//* Local Asynchronous Storage Service Offline. *//
 
-async function query(entityType, filterBy = {}, delay = 500) {
+export const lassoService = { get, post, put, delete: remove, postMany };
+
+
+async function get(entityType, filterBy = {}, delay = 500) {
+    if (entityType.includes('/')) return getById(entityType)
     let entities = JSON.parse(localStorage.getItem(entityType)) || [];
     if (filterBy) entities = _filter(entities, filterBy);
     return new Promise((resolve) => {
@@ -9,15 +12,16 @@ async function query(entityType, filterBy = {}, delay = 500) {
     });
 }
 
-async function get(entityType, entityId) {
-    return query(entityType).then((entities) =>
+async function getById(path) {
+    const [entityType, entityId] = path.split('/');
+    return get(entityType).then((entities) =>
         entities.find((entity) => entity._id === entityId)
     );
 }
 
 async function post(entityType, newEntity) {
     newEntity._id = _makeId();
-    return query(entityType).then((entities) => {
+    return get(entityType).then((entities) => {
         entities.push(newEntity);
         _save(entityType, entities);
         return newEntity;
@@ -25,7 +29,7 @@ async function post(entityType, newEntity) {
 }
 
 async function put(entityType, updatedEntity) {
-    return query(entityType).then((entities) => {
+    return get(entityType).then((entities) => {
         const idx = entities.findIndex(
             (entity) => entity._id === updatedEntity._id
         );
@@ -35,8 +39,9 @@ async function put(entityType, updatedEntity) {
     });
 }
 
-async function remove(entityType, entityId) {
-    return query(entityType).then((entities) => {
+async function remove(path) {
+    const [entityType, entityId] = path.split('/');
+    return get(entityType).then((entities) => {
         const idx = entities.findIndex((entity) => entity._id === entityId);
         if (idx < 0) throw new Error(`Unknown Entity ${entityId}`);
         entities.splice(idx, 1);
@@ -45,14 +50,14 @@ async function remove(entityType, entityId) {
 }
 
 async function postMany(entityType, newEntities) {
-    return query(entityType).then((entities) => {
+    return get(entityType).then((entities) => {
         entities.push(...newEntities);
         _save(entityType, entities);
         return entities;
     });
 }
 
-function _filter(entities, filterBy) {
+const _filter = (entities, filterBy) => {
     // Define & Destructure filterBy keys
     let { name, brand, category, minPrice, maxPrice } = filterBy;
     name = name ? name.toLowerCase() : '';
@@ -68,9 +73,6 @@ function _filter(entities, filterBy) {
     );
 }
 
-const _filterString = (key, str) => key ? key.toLowerCase().includes(str) : false;
-const _filterPrice = (price, min = 0, max = Infinity) => price >= min && price <= max;
-
 const _save = (entityType, entities) => {
     localStorage.setItem(entityType, JSON.stringify(entities));
 }
@@ -83,3 +85,8 @@ const _makeId = (length = 5) => {
     }
     return text;
 }
+
+// Note: Sub-Functions for the "_filter" function.
+const _filterString = (key, str) => key ? key.toLowerCase().includes(str) : false;
+const _filterPrice = (price, min = 0, max = Infinity) => price >= min && price <= max;
+
