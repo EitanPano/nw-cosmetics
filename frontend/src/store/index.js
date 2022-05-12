@@ -6,6 +6,7 @@ import { userReducer } from './user/reducer';
 
 const reducer = combineReducers({
     productModule: productReducer,
+    userModule: userReducer
 })
 
 export const store = configureStore({reducer});

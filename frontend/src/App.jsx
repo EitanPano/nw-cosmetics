@@ -8,6 +8,7 @@ import { Products } from './views/Products';
 import { ProductDetails } from './views/ProductDetails';
 import { Cart } from './views/Cart';
 import { Auth } from './views/Auth';
+import { UserMessage } from './components/UserMessage';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
                     <Route path="*" element={<Navigate to="/" />}/>
                 </Routes>
                 <AppFooter></AppFooter>
+                <UserMessage></UserMessage>
             </div>
         </Router>
     );

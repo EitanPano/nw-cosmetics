@@ -8,7 +8,6 @@ import { Message } from '../components/Message';
 
 export const Products = () => {
     const { products, error } = useSelector((state) => state.productModule);
-    // const products = []
     const dispatch = useDispatch();
 
     useEffect(() => {

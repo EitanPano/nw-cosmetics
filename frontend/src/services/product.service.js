@@ -21,6 +21,7 @@ async function query(filterBy) {
         // throw new Error('Something went wrong.')
         return products;
     } catch (err) {
+        // console.log('err: ', err);
         throw err;
     }
 }
@@ -31,7 +32,7 @@ async function getById(productId) {
         // const product = await lassoService.get(`${ROUTE_KEY}/${productId}`)
         return product;
     } catch (err) {
-        console.log('err: ', err);
+        // console.log('err: ', err);
         throw err;
     }
 }
@@ -46,7 +47,7 @@ async function _addProduct(product) {
         // const newProduct = await lassoService.post(ROUTE_KEY, product);
         return newProduct;
     } catch (err) {
-        console.log('err: ', err);
+        // console.log('err: ', err);
         throw err;
     }
 }
@@ -57,7 +58,7 @@ async function _updateProduct(product) {
         // const updatedProduct = await lassoService.put(ROUTE_KEY, product)
         return updatedProduct;
     } catch (err) {
-        console.log('err: ', err);
+        // console.log('err: ', err);
         throw err;
     }
 }
@@ -67,7 +68,8 @@ async function remove(id = '627909d58bf3a89a6a44f864') {
         await httpService.delete(`${ROUTE_KEY}/${id}`);
         // await lassoService.delete(`${ROUTE_KEY}/${id}`);
     } catch (err) {
-        console.log('err: ', err);
+        // console.log('err: ', err);
+        throw err
     }
 }
 

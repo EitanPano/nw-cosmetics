@@ -2,7 +2,7 @@ const initialState = {
     products: [],
     selectedProduct: null,
     filterBy: null,
-    error: null
+    error: null,
 };
 
 export const productReducer = (state = initialState, action) => {
@@ -24,19 +24,20 @@ export const productReducer = (state = initialState, action) => {
             return {
                 ...state,
                 products: state.products.map((product) =>
-                    product._id === action.product._id ? action.product : product ),
+                    product._id === action.product._id ? action.product : product
+                ),
             };
 
         case 'REMOVE_PRODUCT':
             // console.log('action: ', action.type);
-            return { 
+            return {
                 ...state,
-                products: state.products.filter(product => product._id === action.productId)
+                products: state.products.filter((product) => product._id === action.productId)
             };
 
         case 'SET_ERROR':
             // console.log('action: ', action)
-            return { ...state, error: action.error }
+            return { ...state, error: action.error };
 
         default:
             return state;
