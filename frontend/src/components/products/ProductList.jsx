@@ -1,4 +1,3 @@
-import React from 'react';
 import { Row } from 'react-bootstrap';
 import { Loader } from '../Loader';
 import { ProductPreview } from './ProductPreview';

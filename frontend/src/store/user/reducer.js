@@ -2,7 +2,7 @@ const initialState = {
     users: [],
     selectedUser: null,
     filterBy: null,
-    userMessage: null
+    userMessage: {}
 };
 
 export const userReducer = (state = initialState, action) => {
@@ -11,7 +11,7 @@ export const userReducer = (state = initialState, action) => {
             return { ...state, users: action.users };
 
         case 'SET_MESSAGE':
-            return { ...state, userMessage: action.message}
+            return { ...state, userMessage: action.userMessage}
         
         default:
             return state;

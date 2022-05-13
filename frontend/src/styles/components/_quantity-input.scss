@@ -1,0 +1,40 @@
+.price-by-qty {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    span {
+        color: rgba(30, 30, 30, 0.5);
+        font-size: small;
+    }
+}
+
+.quantity-input {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: calc(37px * 3);
+    border-radius: 1em;
+
+    button {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: em(36px);
+        height: em(36px);
+        font-weight: bold;
+        border: none;
+
+        &.inc {
+            border-radius: 1em 0 0 1em;
+        }
+
+        &.dec {
+            border-radius: 0 1em 1em 0;
+        }
+    }
+
+    input {
+        width: em(36px);
+        text-align: center;
+        border: none;
+        outline: none;
+    }
+}

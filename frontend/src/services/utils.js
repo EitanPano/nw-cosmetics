@@ -3,7 +3,7 @@ export const getTextCut = (str, num) => {
     else return str;
 };
 
-export const ls = {
+export const localStore = {
     set: (key, value) => {
         localStorage.setItem(key, JSON.stringify(value));
         return value;
@@ -13,7 +13,7 @@ export const ls = {
     },
 };
 
-export const ss = {
+export const sessionStore = {
     set: (key, value) => {
         sessionStorage.setItem(key, JSON.stringify(value));
         return value;

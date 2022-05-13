@@ -11,6 +11,8 @@ export const productService = {
     getEmptyProduct,
 };
 
+export const getProductById = getById;
+
 const ROUTE_KEY = 'product';
 
 async function query(filterBy) {

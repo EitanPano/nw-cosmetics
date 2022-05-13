@@ -4,6 +4,11 @@ a {
     cursor: pointer;
 }
 
+p {
+    font-weight: bold;
+    margin: 0;
+}
+
 .list-group-item {
     p {
         font-weight: bold;
@@ -12,11 +17,31 @@ a {
 }
 
 .go-back {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-inline-start: 1em;
+    margin-top: 0.5em;
     border: none;
     background: transparent;
     font-weight: bold;
-    transition: all 0.05s;
-    &:hover {
-        transform: scale(1.05);
+    transition: transform 1s;
+    position: relative;
+    
+    &::before {
+        content: '← ';
+        position: absolute;
+        left: -0.6em;
+        transition: all 0.2s;
     }
+
+    &:hover {
+        &::before {
+        left: -1.2em;
+        }
+    }
+}
+
+.btn-nude {
+    border: none;
+    background: transparent;
+    font-weight: bold;
 }

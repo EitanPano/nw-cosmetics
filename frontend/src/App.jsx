@@ -3,12 +3,12 @@ import './styles/main.scss';
 
 import { AppFooter } from './components/AppFooter';
 import { AppHeader } from './components/AppHeader';
+import { PopupMessage } from './components/PopupMessage';
 import { Home } from './views/Home';
 import { Products } from './views/Products';
 import { ProductDetails } from './views/ProductDetails';
 import { Cart } from './views/Cart';
 import { Auth } from './views/Auth';
-import { UserMessage } from './components/UserMessage';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
                     <Route path="*" element={<Navigate to="/" />}/>
                 </Routes>
                 <AppFooter></AppFooter>
-                <UserMessage></UserMessage>
+                <PopupMessage></PopupMessage>
             </div>
         </Router>
     );

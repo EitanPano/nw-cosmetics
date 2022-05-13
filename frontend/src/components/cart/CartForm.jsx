@@ -4,7 +4,7 @@ import { setUserMessage } from '../../store/user/actions'
 import { Row, Col, ListGroup, ListGroupItem, Button } from 'react-bootstrap';
 
 
-export const CartForm = ({price, inStockCount, addToCart}) => {
+export const CartForm = ({price, inStockCount, onAddToCart}) => {
     const dispatch = useDispatch()
     const [cartForm, handleChange] = useForm({quantity: 1})
 
@@ -21,7 +21,7 @@ export const CartForm = ({price, inStockCount, addToCart}) => {
         if (quantity <= 0) quantity = 1
         if (quantity > inStockCount) {
             quantity = inStockCount;
-            dispatch(setUserMessage('Almost out of stock'))
+            dispatch(setUserMessage('Almost out of stock', 'success'))
         } 
 
         ev.target.value = quantity
@@ -30,6 +30,9 @@ export const CartForm = ({price, inStockCount, addToCart}) => {
         handleChange(ev)
     }
 
+    const onAdd = () => {
+        onAddToCart(cartForm.quantity)
+    }
 
     if (!cartForm) return null
     return (
@@ -62,7 +65,7 @@ export const CartForm = ({price, inStockCount, addToCart}) => {
                     )}
                     <ListGroupItem>
                         <Row>
-                            <Button onClick={() => addToCart(1)} disabled={!isInStock()} className="btn-block" >
+                            <Button onClick={onAdd} disabled={!isInStock()} className="btn-block" >
                                 Add to Cart
                             </Button>
                         </Row>
