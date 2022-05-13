@@ -1,5 +1,5 @@
 const initialState = {
-    cartItems: null,
+    cartItems: [],
 };
 
 const getIdx = (arr, id) => arr.findIndex(item => item._id === id);
