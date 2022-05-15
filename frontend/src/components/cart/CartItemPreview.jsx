@@ -1,17 +1,12 @@
 import { Row, Col, Image } from 'react-bootstrap';
-import { useDispatch } from 'react-redux';
-import { changeQuantity } from '../../store/cart/actions';
+
 import { QuantityInput } from './QuantityInput';
 
-export const CartItemPreview = ({ item }) => {
-
-    const dispatch = useDispatch()
+export const CartItemPreview = ({ item, onUpdateCartItem, onRemoveFromCart }) => {
 
     const onChangeQty = (qty) => {
-        // console.log('ev', ev)
-        dispatch(changeQuantity(item._id, qty))
+        onUpdateCartItem({ ...item, quantity: qty })
     }
-
 
     return (
         <Row>
@@ -19,15 +14,20 @@ export const CartItemPreview = ({ item }) => {
                 <Image src={item.image} fluid></Image>
             </Col>
             <Col className='d-flex flex-column justify-content-between'>
-                <h5 className=''>{item.name}</h5>
+                <Row>
+                    <h5 className='col-10'>{item.name}</h5>
+                    <button onClick={() => onRemoveFromCart(item._id)} className='col-2 ms-auto mb-auto btn-nude'>
+                        <i className="fa-solid fa-trash text-secondary"></i>
+                    </button>
+                </Row>
                 <Row className="d-flex align-items-center">
-                    <Col xs={6}>
+                    <Col>
                         <p className='price-by-qty'>
                             ${item.price * item.quantity}
                             {item.quantity > 1 && <span> ${item.price}x{item.quantity}</span>}
                         </p>
                     </Col>
-                    <Col xs={6}>
+                    <Col xs={7} md={6}>
                         <QuantityInput onChangeQty={onChangeQty} quantity={item.quantity} inStockCount={item.inStockCount} max={5} />
                     </Col>
                 </Row>

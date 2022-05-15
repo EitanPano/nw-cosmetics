@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useForm } from '../../hooks/useForm';
 import { setUserMessage } from '../../store/user/actions';
 
-export const QuantityInput = ({onChangeQty, quantity, inStockCount, max}) => {
+export const QuantityInput = ({onChangeQty, quantity, inStockCount, max = 5}) => {
 
     const dispatch = useDispatch()
     const inputRef = useRef()
@@ -57,9 +57,9 @@ export const QuantityInput = ({onChangeQty, quantity, inStockCount, max}) => {
 
   return (
     <form onChange={setQuantity} className='quantity-input'>
-        <button onClick={diffQuantity} className='inc'>+</button>
+        <button disabled={itemForm.quantity >= max} onClick={diffQuantity} className='inc'>+</button>
         <input ref={inputRef} onChange={setQuantity} value={itemForm.quantity} id='quantity' name='quantity' type="text" />
-        <button onClick={diffQuantity} className='dec'>-</button>
+        <button disabled={itemForm.quantity <= 1} onClick={diffQuantity} className='dec'>-</button>
     </form>
   )
 }

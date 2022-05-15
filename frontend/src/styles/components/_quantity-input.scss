@@ -7,20 +7,30 @@
 }
 
 .quantity-input {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     width: calc(37px * 3);
     border-radius: 1em;
+    margin-inline-start: auto;
+    background: #fafafa;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
 
     button {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         width: em(36px);
         height: em(36px);
-        font-weight: bold;
+        outline: 1px solid rgba(0, 0, 0, 0.8);
         border: none;
+        background: #1f1f1f;
+        color: #eee;
+        transition:  0.2s;
+        
+        &:disabled {
+            background: rgba(31, 31, 31, 0.5);
+            outline: none;
+        }
+
 
         &.inc {
             border-radius: 1em 0 0 1em;
@@ -34,6 +44,8 @@
     input {
         width: em(36px);
         text-align: center;
+        font-weight: bold;
+        background: transparent;
         border: none;
         outline: none;
     }

@@ -12,7 +12,6 @@ export const cartReducer = (state = initialState, action) => {
 
 
         case 'ADD_CART_ITEM':
-            // const idx = state.cartItems.findIndex((item) => item._id === action.item._id);
             const idx = getIdx(state.cartItems, action.item._id)
             if (idx < 0) return { ...state, cartItems: [...state.cartItems, action.item] };
             else return {
@@ -21,6 +20,19 @@ export const cartReducer = (state = initialState, action) => {
                         action.item
                     ],
                 };
+
+        case 'UPDATE_CART_ITEM':
+            return {
+                ...state,
+                cartItems: state.cartItems.reduce((acc, item) => {
+                    acc.push((item._id === action.item._id) ? action.item : item)
+                    return acc
+                }, [])
+            }
+
+        case 'REMOVE_CART_ITEM':
+            return { ...state, cartItems: state.cartItems.filter(item => item._id !== action.itemId) };
+
 
         case 'CHANGE_QUANTITY':
             const idxToUpdate = getIdx(state.cartItems, action.itemToUpdate._id);
