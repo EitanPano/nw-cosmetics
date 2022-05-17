@@ -41,7 +41,7 @@ async function addProduct(req, res) {
 async function updateProduct(req, res) {
     try {
         const product = req.body;
-        console.log('product: ', product)
+        // console.log('product: ', product)
         const updatedProduct = await productService.update(product);
         res.json(updatedProduct);
     } catch (err) {

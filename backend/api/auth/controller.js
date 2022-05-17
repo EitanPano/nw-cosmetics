@@ -6,7 +6,7 @@ async function signUp(req, res) {
     try {
         const newUser = req.body;
         newUser.isAdmin = false
-        console.log(newUser);
+        // console.log(newUser);
         const user = await authService.signUp(newUser);
         req.session.user = user
         res.json(user);
@@ -42,7 +42,7 @@ async function logOut(req, res) {
 
 async function getUserByName(req, res) {
     try {
-        console.log(req.params);
+        // console.log(req.params);
         const user = await userService.getByName(req.params.name);
         res.send(user);
     } catch (err) {

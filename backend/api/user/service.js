@@ -52,7 +52,7 @@ async function getByName(name) {
 async function add(userCreds) {
     try {
         const collection = await dbService.getCollection('user');
-        console.log(userCreds);
+        // console.log(userCreds);
         const user = await collection.insertOne(userCreds);
         return user;
     } catch (err) {

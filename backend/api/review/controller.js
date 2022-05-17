@@ -7,7 +7,7 @@ async function getReviews(req, res) {
     try {
         // const reviews = await reviewService.query(req.query);
         const reviews = await reviewService.query(req.body);
-        console.log(req.body);
+        // console.log(req.body);
         res.json(reviews);
     } catch (err) {
         logger.error('Cannot get reviews', err);

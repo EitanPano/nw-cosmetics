@@ -17,7 +17,7 @@ const models = ['product', 'signup', 'order', 'review', 'user'];
 const validateData = (req, res, next) => {
     // console.log('req.body', req.body)
     const currModel = getUrlPath(req.originalUrl);
-    console.log('currModel', currModel);
+    // console.log('currModel', currModel);
     // = req.originalUrl.split('/').filter((str) => str !== '').pop();
     const dataModel = req.body;
 
