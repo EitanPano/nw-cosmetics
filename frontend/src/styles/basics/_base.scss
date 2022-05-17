@@ -45,3 +45,8 @@ p {
     background: transparent;
     font-weight: bold;
 }
+
+.secured {
+    -webkit-text-security: disc;
+    // text-security: disc;
+}

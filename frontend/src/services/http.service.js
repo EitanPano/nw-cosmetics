@@ -5,9 +5,12 @@ const BASE_URL = process.env.NODE_ENV === 'production'
     : '//localhost:3030/api/'
 
 
-var axios = Axios.create({
+const axios = Axios.create({
     withCredentials: true
 })
+
+const source = Axios.CancelToken.source()
+const cancelToken = source.token
 
 export const httpService = {
     get(endpoint, data) {
@@ -31,7 +34,8 @@ async function ajax(endpoint, method = 'GET', data = null) {
             method,
             data,
             params: (method === 'GET') ? data : null
-        })
+            // IF ERRORS CANCEL NEXT PARAMETER (next line)
+        }, { cancelToken: (method === 'GET') ? cancelToken : null })
         return res.data
     } catch (err) {
         console.log(`Had Issues ${method}ing to the backend, endpoint: ${endpoint}, with data:`, data)
@@ -39,7 +43,7 @@ async function ajax(endpoint, method = 'GET', data = null) {
         if (err.response && err.response.status === 401) {
             // Depends on routing startegy - hash or history
             // window.location.assign('/#/login')
-            window.location.assign('/login')
+            window.location.assign('/auth')
         }
         throw err
     }

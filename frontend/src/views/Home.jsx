@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadProducts } from '../store/product/actions';
 
 import { Container } from 'react-bootstrap';
-import { ProductList } from '../components/products/ProductList';
+import { ProductList } from '../components/ProductComponents/ProductList';
 import { Message } from '../components/Message';
 
 export const Home = () => {

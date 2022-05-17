@@ -4,9 +4,7 @@ import { ObjectId } from 'mongodb';
 
 async function query(filterBy) {
     try {
-        // console.log('filterBy', filterBy);
         const [criteria, sortCriteria] = _buildCriterias(filterBy);
-        console.log('criteria, sortCriteria', criteria, sortCriteria);
 
         const collection = await dbService.getCollection('product');
         const products = await collection

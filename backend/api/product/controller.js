@@ -5,12 +5,9 @@ import logger from '../../services/logger.service.js';
 
 async function getProducts(req, res) {
     try {
-        console.log('req.query', req.query)
         const queryParams = req.query;
         const products = await productService.query(queryParams);
         // const products = _products;
-        // throw new Error('Something went wrong.')
-
         res.json(products);
     } catch (err) {
         logger.error('Failed to get products', err);

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadCartItems, updateCartItem, removeFromCart } from '../store/cart/actions';
 
 import { Button, Col, Container, Image, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
-import { CartItemList } from '../components/cart/CartItemList';
+import { CartItemList } from '../components/CartComponents/CartItemList';
 
 export const Cart = () => {
     const { cartItems } = useSelector((state) => state.cartModule);

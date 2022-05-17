@@ -57,7 +57,6 @@ async function removeUser(req, res) {
 export {
     getUsers,
     getUserById,
-    // getUserByName,
     addUser,
     updateUser,
     removeUser,

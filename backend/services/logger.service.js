@@ -43,7 +43,7 @@ function doLog(level, ...args) {
 
 export default {
     debug(...args) {
-        // if (process.env.NODE_NEV === 'production') return
+        if (process.env.NODE_NEV === 'production') return
         doLog('DEBUG', ...args);
     },
     info(...args) {

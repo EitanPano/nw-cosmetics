@@ -8,7 +8,7 @@ import { Col, Row, Container, Image, ListGroup, ListGroupItem } from 'react-boot
 import { Rating } from '../components/Rating';
 import { Message } from '../components/Message';
 import { Loader } from '../components/Loader';
-import { CartForm } from '../components/cart/CartForm';
+import { CartForm } from '../components/CartComponents/CartForm';
 import { GoBack } from '../components/GoBack';
 
 export const ProductDetails = () => {

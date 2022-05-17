@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { loadProducts } from '../store/product/actions';
 
-import { ProductList } from '../components/products/ProductList';
+import { ProductList } from '../components/ProductComponents/ProductList';
 import { Container } from 'react-bootstrap';
 import { Message } from '../components/Message';
 
@@ -12,7 +12,7 @@ export const Products = () => {
 
     useEffect(() => {
         dispatch(loadProducts());
-    }, []);
+    }, [dispatch]);
 
 
     return (

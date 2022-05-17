@@ -2,14 +2,14 @@ const userModel = {
     type: 'object',
     properties: {
         fullName: { type: 'string', default: '' },
-        userName: { type: 'string' },
-        password: { type: 'string' },
+        username: { type: 'string' },
         email: { type: 'string' },
+        password: { type: 'string' },
+        isAdmin: { type: 'boolean', default: false },
         points: { type: 'number', default: 10 },
         reviewCount: { type: 'number', default: 0 },
-        isAdmin: { type: 'boolean', default: false },
     },
-    required: ['userName', 'password', 'email'],
+    required: ['username', 'password', 'email'],
 };
 
 export { userModel as userSchema };

@@ -33,21 +33,26 @@ async function getById(userId) {
     }
 }
 
-async function getByName(userName) {
+async function getByName(name) {
     try {
+        const usernameQry = {username: { '$regex': `^${name}$`, '$options': 'i'}}
+        const emailQry = {email: { '$regex': `^${name}$`, '$options': 'i'}}
+        const query = { "$or": [usernameQry, emailQry] }
+
         const collection = await dbService.getCollection('user');
-        const user = await collection.findOne({ userName });
-        console.log(userName);
-        return user;
+        const user = await collection.findOne(query);
+        return user ? true : false;
     } catch (err) {
         logger.error(`while finding user ${userName}`, err);
         throw err;
     }
 }
+// const user = await collection.findOne({ "or": [{username: name}, {email: name}] });
 
 async function add(userCreds) {
     try {
         const collection = await dbService.getCollection('user');
+        console.log(userCreds);
         const user = await collection.insertOne(userCreds);
         return user;
     } catch (err) {
