@@ -1,0 +1,28 @@
+// COLOR PALETTE
+$text: #3f3f3f;
+
+$clr1: rgb(255, 232, 248);
+$clr2: #ccc;
+$clr3: #87e4f5;
+$clr4: #f0decb;
+$clr5: #fff;
+
+// CONSTANT FIXED CMPS SIZE
+$appHeader: 4em;
+
+// LAYOUT
+$layoutPadding: 20px;
+
+
+$break-small: 576px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-x-large: 1200px;
+$break-xx-large: 1400px;
+
+
+$padded-break-small: $break-small + $layoutPadding * 2;
+$padded-break-medium: $break-medium + $layoutPadding * 2;
+$padded-break-large: $break-large + $layoutPadding * 2;
+$padded-break-x-large: $break-x-large + $layoutPadding * 2;
+$padded-break-xx-large: $break-xx-large + $layoutPadding * 2;

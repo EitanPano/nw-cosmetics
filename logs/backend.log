@@ -1,0 +1,239 @@
+[ 20/05/2022, 13:34:26 ] - INFO - Development Server running on port: 3030  
+[ 20/05/2022, 13:34:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: HYejUaifYmGoNLGgy_bkARaz6Ym-26GI) 
+[ 22/05/2022, 10:46:17 ] - INFO - Development Server running on port: 3030  
+[ 22/05/2022, 10:46:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: P_eHhO1GyrS7UweEdHjVqw280XCehA0y) 
+[ 23/05/2022, 10:32:38 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 10:32:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -ceoc4DTxjcqZatkxExvbGRyRJEx-9Hk) 
+[ 23/05/2022, 11:38:17 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:38:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: O2Qmf49JnY_EJm5YmeGM0Go7kTVDgg3i) 
+[ 23/05/2022, 11:38:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JY2I8caMtV5nYCVp2sQ9VSMfzOwNQsmJ) 
+[ 23/05/2022, 11:41:05 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:41:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4u-E6qqgMoJNsYRGMzGj_CUxGk5tLiUt) 
+[ 23/05/2022, 11:41:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QiB30PNSiHC4pQ_G8Ml5pyrXrr5Q-29q) 
+[ 23/05/2022, 11:42:11 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:42:13 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zTX1AKN8GzICO54Z0O4AoEPmo8rLNKcC) 
+[ 23/05/2022, 11:42:13 ] - INFO - MongoDB Connected: nw-cosmetics (sid: n0mxYZXsxhJTqOl4j5FNbaJ5Ij7ANdoa) 
+[ 23/05/2022, 11:42:49 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:44:50 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:44:50 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QGcVPwkfg1X_R2X_J1-33yprA6zp1cAM) 
+[ 23/05/2022, 11:45:15 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:45:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 3_nPxtNwzKaECu_R8MCcVdS4e2WPvie4) 
+[ 23/05/2022, 11:45:19 ] - ERROR - cannot find products | MongoInvalidArgumentError: Invalid sort direction: 0 (sid: 3_nPxtNwzKaECu_R8MCcVdS4e2WPvie4) 
+[ 23/05/2022, 11:45:19 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Invalid sort direction: 0 (sid: 3_nPxtNwzKaECu_R8MCcVdS4e2WPvie4) 
+[ 23/05/2022, 11:45:19 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9SZ8U7rdipvoS7dQ69NBzEGhvT_DF3C5) 
+[ 23/05/2022, 11:45:19 ] - ERROR - cannot find products | MongoInvalidArgumentError: Invalid sort direction: 0 (sid: 9SZ8U7rdipvoS7dQ69NBzEGhvT_DF3C5) 
+[ 23/05/2022, 11:45:19 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Invalid sort direction: 0 (sid: 9SZ8U7rdipvoS7dQ69NBzEGhvT_DF3C5) 
+[ 23/05/2022, 11:45:25 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:45:27 ] - INFO - MongoDB Connected: nw-cosmetics (sid: u4X2FAZ_TsHs9rAwBKiPBQyGd-5620bq) 
+[ 23/05/2022, 11:45:27 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 0V94ZkzYOmngU2O5CUMskLzaFCw9YS3k) 
+[ 23/05/2022, 11:46:31 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:46:32 ] - INFO - MongoDB Connected: nw-cosmetics (sid: xuX_mjuhhTO3ms2ByXhCbm3YWXfGqdgS) 
+[ 23/05/2022, 11:46:32 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: xuX_mjuhhTO3ms2ByXhCbm3YWXfGqdgS) 
+[ 23/05/2022, 11:46:32 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: xuX_mjuhhTO3ms2ByXhCbm3YWXfGqdgS) 
+[ 23/05/2022, 11:46:32 ] - INFO - MongoDB Connected: nw-cosmetics (sid: sR1q7dJdplSVD9y0Omlmd1qESUdx19fG) 
+[ 23/05/2022, 11:46:32 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: sR1q7dJdplSVD9y0Omlmd1qESUdx19fG) 
+[ 23/05/2022, 11:46:32 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: sR1q7dJdplSVD9y0Omlmd1qESUdx19fG) 
+[ 23/05/2022, 11:46:39 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:46:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: uzJHfTIv9qXe0czZL5DxHG8V9Wa2TmUl) 
+[ 23/05/2022, 11:46:40 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: uzJHfTIv9qXe0czZL5DxHG8V9Wa2TmUl) 
+[ 23/05/2022, 11:46:40 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: uzJHfTIv9qXe0czZL5DxHG8V9Wa2TmUl) 
+[ 23/05/2022, 11:46:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: l9Q0EYYtWWD8CFITuI8FX0p8pMMmhfXB) 
+[ 23/05/2022, 11:46:40 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: l9Q0EYYtWWD8CFITuI8FX0p8pMMmhfXB) 
+[ 23/05/2022, 11:46:40 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: l9Q0EYYtWWD8CFITuI8FX0p8pMMmhfXB) 
+[ 23/05/2022, 11:46:46 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:46:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: s6Y2R5jPGo-0Dcd01POQLnZHJAPm9TOy) 
+[ 23/05/2022, 11:46:47 ] - INFO - MongoDB Connected: nw-cosmetics (sid: dfEmIrm9rvUFNuZb_P9uOo-l9w49rJJn) 
+[ 23/05/2022, 11:48:01 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:48:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: kOmqEnrMDHqqzFieo25s9x8l0DC4bPhg) 
+[ 23/05/2022, 11:48:03 ] - ERROR - cannot find products | ReferenceError: infinity is not defined (sid: kOmqEnrMDHqqzFieo25s9x8l0DC4bPhg) 
+[ 23/05/2022, 11:48:03 ] - ERROR - Failed to get products | ReferenceError: infinity is not defined (sid: kOmqEnrMDHqqzFieo25s9x8l0DC4bPhg) 
+[ 23/05/2022, 11:48:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: xzoc1WQKE3cDo3SJXOgeMbLXTekVQS1P) 
+[ 23/05/2022, 11:48:03 ] - ERROR - cannot find products | ReferenceError: infinity is not defined (sid: xzoc1WQKE3cDo3SJXOgeMbLXTekVQS1P) 
+[ 23/05/2022, 11:48:03 ] - ERROR - Failed to get products | ReferenceError: infinity is not defined (sid: xzoc1WQKE3cDo3SJXOgeMbLXTekVQS1P) 
+[ 23/05/2022, 11:48:11 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:48:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WN1yMAeX8nf-l75TfT-EQriaVnAVFIiV) 
+[ 23/05/2022, 11:48:11 ] - ERROR - cannot find products | ReferenceError: infinity is not defined (sid: WN1yMAeX8nf-l75TfT-EQriaVnAVFIiV) 
+[ 23/05/2022, 11:48:11 ] - ERROR - Failed to get products | ReferenceError: infinity is not defined (sid: WN1yMAeX8nf-l75TfT-EQriaVnAVFIiV) 
+[ 23/05/2022, 11:48:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Fvawy-ui0hzAlPqg7Ccfu3NZKp6lmByV) 
+[ 23/05/2022, 11:48:11 ] - ERROR - cannot find products | ReferenceError: infinity is not defined (sid: Fvawy-ui0hzAlPqg7Ccfu3NZKp6lmByV) 
+[ 23/05/2022, 11:48:11 ] - ERROR - Failed to get products | ReferenceError: infinity is not defined (sid: Fvawy-ui0hzAlPqg7Ccfu3NZKp6lmByV) 
+[ 23/05/2022, 11:50:23 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:50:23 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 7RSeG86eMbHkfh3D_0t02cKwkXmCtPtX) 
+[ 23/05/2022, 11:50:23 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 7RSeG86eMbHkfh3D_0t02cKwkXmCtPtX) 
+[ 23/05/2022, 11:50:23 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 7RSeG86eMbHkfh3D_0t02cKwkXmCtPtX) 
+[ 23/05/2022, 11:50:23 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1Pt3ULp40YSTFl2yXfDDfGhQMn-pXYFi) 
+[ 23/05/2022, 11:50:23 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 1Pt3ULp40YSTFl2yXfDDfGhQMn-pXYFi) 
+[ 23/05/2022, 11:50:23 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 1Pt3ULp40YSTFl2yXfDDfGhQMn-pXYFi) 
+[ 23/05/2022, 11:50:34 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:50:34 ] - INFO - MongoDB Connected: nw-cosmetics (sid: _J62KOxCHxW0Czr0wR5mUmOYZQ2n8N0q) 
+[ 23/05/2022, 11:50:34 ] - INFO - MongoDB Connected: nw-cosmetics (sid: BhJdxx6SSFOihvaiDH-jobhdTTvq4gr1) 
+[ 23/05/2022, 11:51:11 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:51:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:30 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:30 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:31 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:31 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:31 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:51:31 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: cYm2zJa_kmipLiSQ8sM9kGJyGXukJMDB) 
+[ 23/05/2022, 11:52:48 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:52:51 ] - INFO - MongoDB Connected: nw-cosmetics (sid: HsCDXHdc5iQZQ8YYJgfm9J5Mnig2JJ5d) 
+[ 23/05/2022, 11:52:51 ] - INFO - MongoDB Connected: nw-cosmetics (sid: IHpy2VlIytTa3ku4Jv-HESGImo-XqjD5) 
+[ 23/05/2022, 11:54:20 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:54:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: d0TnuqyWLiOlCPA1z7VCqgPL3aZWM7qy) 
+[ 23/05/2022, 11:54:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4-kDWdO1iInEJPWLKsdD61B57FwFDvoj) 
+[ 23/05/2022, 11:54:55 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:54:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: XfQpUj8jDJiirYsxGoMR_4F_72AczKIK) 
+[ 23/05/2022, 11:54:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: iyXxGMLmGvWm7Kh4hi0bqdclR8xCeULO) 
+[ 23/05/2022, 11:55:10 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:55:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: qg8Xo_uaEVF0oc2spia5s23YlNmrds_j) 
+[ 23/05/2022, 11:55:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: k4Wts55sUCrgJscl5SXj-SRzWv3CuO4G) 
+[ 23/05/2022, 11:55:30 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:55:32 ] - INFO - MongoDB Connected: nw-cosmetics (sid: LexPepN3WDBtw_62fRO9trJ2TLneUqB9) 
+[ 23/05/2022, 11:55:32 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -_lgkfHNNF-pKrBiq-e77rNWuW75zNhR) 
+[ 23/05/2022, 11:55:38 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:55:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: UsyJNprA0t6uPbquotneeCEY-Q2WDnAw) 
+[ 23/05/2022, 11:55:39 ] - INFO - MongoDB Connected: nw-cosmetics (sid: lVtjYagafClGy0hViyTZOLZEYO9cXLrL) 
+[ 23/05/2022, 11:55:52 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:55:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: DSC1VzlxJvFHa2RQr67a_VpAQKrpht5e) 
+[ 23/05/2022, 11:55:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -z6inIilH_k33tmgh00oa5KGpRAOYVTD) 
+[ 23/05/2022, 11:56:39 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:56:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: GF5vzV_HoMBm3ByuIrCipngcm7rdo28C) 
+[ 23/05/2022, 11:56:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Wlgi442lLOL27vI0ght7EM90ITfHRU52) 
+[ 23/05/2022, 11:56:44 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:56:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: YHKPCZz13_gFFDVisHHuWHZfY3-xh8MV) 
+[ 23/05/2022, 11:56:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: RW5z1yilIQsj1z7lRg9vFiL1WpYz5zTo) 
+[ 23/05/2022, 11:57:11 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:57:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: JpumkrPHny34ZOKeM5VuCWKxGSACnair) 
+[ 23/05/2022, 11:57:12 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 0exnRS5uw5bvcFyCbLxZUhierlpLZbJD) 
+[ 23/05/2022, 11:58:49 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:58:54 ] - INFO - MongoDB Connected: nw-cosmetics (sid: FAuLDUwgXt830vzhA-1E3tnTiTHD8aCt) 
+[ 23/05/2022, 11:58:54 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Bj6mKUy0ggE3lzCjscMIWHmJJ0dSyOU-) 
+[ 23/05/2022, 11:59:35 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:59:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: v12_lfbI1P0ZTNE7U0-D1_NNX_9xiT2F) 
+[ 23/05/2022, 11:59:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: ATNIPtNy5KL28iAivTMR1MJ2cZbtHNs9) 
+[ 23/05/2022, 11:59:44 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 11:59:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: L9AX4uZZNbPokxpoVFaI5HDiOrib6RRI) 
+[ 23/05/2022, 11:59:46 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Ak5hRQztGl7JhBzvEP0akgsRPFVQi2TT) 
+[ 23/05/2022, 12:00:15 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:00:16 ] - INFO - MongoDB Connected: nw-cosmetics (sid: WzleIV332dv_B9dBeKhub1Z0sDaiC3Wo) 
+[ 23/05/2022, 12:00:16 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: WzleIV332dv_B9dBeKhub1Z0sDaiC3Wo) 
+[ 23/05/2022, 12:00:16 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: WzleIV332dv_B9dBeKhub1Z0sDaiC3Wo) 
+[ 23/05/2022, 12:00:16 ] - INFO - MongoDB Connected: nw-cosmetics (sid: D4kZsAEiZYdMrpsAERWyJmWqf0cABBeh) 
+[ 23/05/2022, 12:00:16 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: D4kZsAEiZYdMrpsAERWyJmWqf0cABBeh) 
+[ 23/05/2022, 12:00:16 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: D4kZsAEiZYdMrpsAERWyJmWqf0cABBeh) 
+[ 23/05/2022, 12:02:08 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:02:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: GJwneCVpXk9RrrhrE7v9ujt3Q_Chiara) 
+[ 23/05/2022, 12:02:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: mGUuR9BJoUEo7rZizx4HhUJ3MjgnNiVd) 
+[ 23/05/2022, 12:06:50 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:06:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 8xBjieRfweKquBjlJod8J5-KGnJ1aqZN) 
+[ 23/05/2022, 12:06:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: w8iXX357nZSt60FVqu5d01SPlixUUJth) 
+[ 23/05/2022, 12:07:16 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:07:20 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 7xnkpp73IhQuHKckrgszquRNX8l-4g50) 
+[ 23/05/2022, 12:07:20 ] - INFO - MongoDB Connected: nw-cosmetics (sid: PtiUBxJR5sv5uTir9jXjyKA8702WejUE) 
+[ 23/05/2022, 12:07:35 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:07:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: afNbxcJ9I_NyHrgiCUkfRSNYRS3M9mQ8) 
+[ 23/05/2022, 12:07:37 ] - INFO - MongoDB Connected: nw-cosmetics (sid: e8kOcrLfL8UnN7FTa4bg96z7_CUwvYsn) 
+[ 23/05/2022, 12:07:49 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:07:51 ] - INFO - MongoDB Connected: nw-cosmetics (sid: K72yBREDxAyTe8ataEJ8nQGF2ystd3Bs) 
+[ 23/05/2022, 12:07:51 ] - INFO - MongoDB Connected: nw-cosmetics (sid: t1968fAwewbyKMryykMGM9EEdH2mygVR) 
+[ 23/05/2022, 12:08:09 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:08:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: jl_Dp8kA8Br1WZ2UtyAwgd6WRQz8TKTB) 
+[ 23/05/2022, 12:08:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:24 ] - ERROR - while finding product 1 | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:24 ] - ERROR - Failed to get product | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:24 ] - ERROR - while finding product 1 | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:24 ] - ERROR - Failed to get product | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:31 ] - ERROR - while finding product 1 | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:31 ] - ERROR - Failed to get product | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:31 ] - ERROR - while finding product 1 | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:08:31 ] - ERROR - Failed to get product | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (sid: 2LRrEyRO29F2y1K1ui3o83iKjYy-R-FO) 
+[ 23/05/2022, 12:09:59 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:09:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1UgxEgtadmphjOKhb1GOc24iomBuaIOW) 
+[ 23/05/2022, 12:09:59 ] - INFO - MongoDB Connected: nw-cosmetics (sid: HS4mTQv8cwaqnL-IQJoiUJxW7NAZbRyQ) 
+[ 23/05/2022, 12:11:27 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:11:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: tIsMSRp8-TuA0ttOohtWZokVQo7EZIDp) 
+[ 23/05/2022, 12:11:29 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QXgYkFMvJysT1X1nwIlRvKEa9f6lrFeI) 
+[ 23/05/2022, 12:11:40 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:11:41 ] - INFO - MongoDB Connected: nw-cosmetics (sid: zb4KQI26oaf1LTT4ITC3zhS8j04p-Ack) 
+[ 23/05/2022, 12:11:41 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9ALKwn71ucieMD2wV1oKDB21PC8Dkm6i) 
+[ 23/05/2022, 12:11:51 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:11:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 1rEIOJu5XsNxs24pQmbcqxgJMoLzmg7F) 
+[ 23/05/2022, 12:11:52 ] - INFO - MongoDB Connected: nw-cosmetics (sid: XGMXCPSXA5aMRibZ2IUNfvp-Qaj97_gR) 
+[ 23/05/2022, 12:12:08 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:12:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: SySQ9ZGBMErZ6UQYskkHgW2_P43cI75f) 
+[ 23/05/2022, 12:12:09 ] - INFO - MongoDB Connected: nw-cosmetics (sid: hdXZt-cnQWs-1MSOrq2_e1XvAfta1Qr_) 
+[ 23/05/2022, 12:12:35 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:12:36 ] - INFO - MongoDB Connected: nw-cosmetics (sid: y7Cef3Ew8Ry4p0q0QIh5Ievec5TYA11B) 
+[ 23/05/2022, 12:12:36 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: y7Cef3Ew8Ry4p0q0QIh5Ievec5TYA11B) 
+[ 23/05/2022, 12:12:36 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: y7Cef3Ew8Ry4p0q0QIh5Ievec5TYA11B) 
+[ 23/05/2022, 12:12:36 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9n8dcej8pDG8fh5o1YSGET1xTaLDpPhe) 
+[ 23/05/2022, 12:12:36 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 9n8dcej8pDG8fh5o1YSGET1xTaLDpPhe) 
+[ 23/05/2022, 12:12:36 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 9n8dcej8pDG8fh5o1YSGET1xTaLDpPhe) 
+[ 23/05/2022, 12:13:02 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:13:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: CW7HVAjz-fc5PDbYHwZVly2ZA59diT6F) 
+[ 23/05/2022, 12:13:03 ] - INFO - MongoDB Connected: nw-cosmetics (sid: E6gpNvcrhN9RhlMDW3OoegDw5t91vK8d) 
+[ 23/05/2022, 12:13:29 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:13:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -dQEjf84LTE9zHXYpvy6aWXjGCc1KhXn) 
+[ 23/05/2022, 12:13:30 ] - INFO - MongoDB Connected: nw-cosmetics (sid: nyypgQPAgyoHGiMOT4M-V0_wjQP0NB4r) 
+[ 23/05/2022, 12:13:45 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:13:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 4wvLIxfjqgbO_MN9yHpxoEqoBFoowp6w) 
+[ 23/05/2022, 12:13:45 ] - INFO - MongoDB Connected: nw-cosmetics (sid: sy5BlHP3vdd3J07gzc2az19AUbF8uh3Z) 
+[ 23/05/2022, 12:14:20 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:14:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: r0OoOImtKHlXjhkA2Df9Sxi9_1qIYSFE) 
+[ 23/05/2022, 12:14:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Px6YIkSnv8F5jYioJNtlTctHxbykAo8J) 
+[ 23/05/2022, 12:14:38 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:14:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: kKUAo2J7qEFoJTcEbDna3v64JGy9k-42) 
+[ 23/05/2022, 12:14:40 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: kKUAo2J7qEFoJTcEbDna3v64JGy9k-42) 
+[ 23/05/2022, 12:14:40 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: kKUAo2J7qEFoJTcEbDna3v64JGy9k-42) 
+[ 23/05/2022, 12:14:40 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QBLJFgh7ev1JpI49SRM768O8-_XLj9wS) 
+[ 23/05/2022, 12:14:40 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: QBLJFgh7ev1JpI49SRM768O8-_XLj9wS) 
+[ 23/05/2022, 12:14:40 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: QBLJFgh7ev1JpI49SRM768O8-_XLj9wS) 
+[ 23/05/2022, 12:14:53 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:14:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 80YrlCjBPOCFgV5J0_TVwwmHUeHJTCLw) 
+[ 23/05/2022, 12:14:53 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 80YrlCjBPOCFgV5J0_TVwwmHUeHJTCLw) 
+[ 23/05/2022, 12:14:53 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: 80YrlCjBPOCFgV5J0_TVwwmHUeHJTCLw) 
+[ 23/05/2022, 12:14:53 ] - INFO - MongoDB Connected: nw-cosmetics (sid: FX2tsuuKjgFai-sJHHTT6QeMUc2-yhk2) 
+[ 23/05/2022, 12:14:53 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: FX2tsuuKjgFai-sJHHTT6QeMUc2-yhk2) 
+[ 23/05/2022, 12:14:53 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: FX2tsuuKjgFai-sJHHTT6QeMUc2-yhk2) 
+[ 23/05/2022, 12:15:04 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:15:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: fSadEzYLK8ODx7ITapgU0S7C4Cr9E8TN) 
+[ 23/05/2022, 12:15:04 ] - INFO - MongoDB Connected: nw-cosmetics (sid: k8w4Shz2reggBXxN2h1i27f6Kkp2Xcgj) 
+[ 23/05/2022, 12:15:10 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:15:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 2Jtv_QV_qgbFJCxnCRazO9Oa1HDTJyGU) 
+[ 23/05/2022, 12:15:11 ] - INFO - MongoDB Connected: nw-cosmetics (sid: rx0pi016n-FR0BBLvdMtqoPp6oiDG_6t) 
+[ 23/05/2022, 12:15:55 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:15:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: V8oi3kn-n-QB9NDByCxvc6YnKM3Msmuz) 
+[ 23/05/2022, 12:15:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: oglmR1Qi7ijwZUUYAbBwZ0h1UZbvpVlz) 
+[ 23/05/2022, 12:16:17 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:16:26 ] - INFO - MongoDB Connected: nw-cosmetics (sid: DqCzCTkOoVA1AyOkyHZQhKsRHdbJCQap) 
+[ 23/05/2022, 12:16:26 ] - INFO - MongoDB Connected: nw-cosmetics (sid: pPdGV4Umqr-49YbaPPnvPvL-iWYAw2LW) 
+[ 23/05/2022, 12:16:38 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:16:56 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:16:56 ] - INFO - MongoDB Connected: nw-cosmetics (sid: -x0g5GApHpgaMo-HSUeMYlrvlrOgz9ZM) 
+[ 23/05/2022, 12:17:11 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:17:37 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:17:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: OzjfG1RJS2TPacyHrbdS5W9vQOV16El3) 
+[ 23/05/2022, 12:17:38 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: OzjfG1RJS2TPacyHrbdS5W9vQOV16El3) 
+[ 23/05/2022, 12:17:38 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: OzjfG1RJS2TPacyHrbdS5W9vQOV16El3) 
+[ 23/05/2022, 12:17:38 ] - INFO - MongoDB Connected: nw-cosmetics (sid: F3onGLT717BJQr3uL5yNtmqd_fUBlZ_m) 
+[ 23/05/2022, 12:17:38 ] - ERROR - cannot find products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: F3onGLT717BJQr3uL5yNtmqd_fUBlZ_m) 
+[ 23/05/2022, 12:17:38 ] - ERROR - Failed to get products | MongoInvalidArgumentError: Operation "limit" requires an integer (sid: F3onGLT717BJQr3uL5yNtmqd_fUBlZ_m) 
+[ 23/05/2022, 12:17:42 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:17:43 ] - INFO - MongoDB Connected: nw-cosmetics (sid: UMLv1WoZ6kPT4Q8Euse8XE82bHvoA6rG) 
+[ 23/05/2022, 12:17:43 ] - INFO - MongoDB Connected: nw-cosmetics (sid: fpFhNeR2qwkOqAXJm5eJvOEfF3A5_mzJ) 
+[ 23/05/2022, 12:17:57 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:17:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: VoplMI0WA-wCo7Kii7oOHWvGel9J_heM) 
+[ 23/05/2022, 12:17:57 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 9nvjCrmsFHP4-f6ZRysSoR04dpyC6rvS) 
+[ 23/05/2022, 12:18:27 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:18:31 ] - INFO - MongoDB Connected: nw-cosmetics (sid: UsFtiuKfDKaQsV0FY25q9PEhh2I3Obuh) 
+[ 23/05/2022, 12:18:31 ] - INFO - MongoDB Connected: nw-cosmetics (sid: xiekJpP2dQWiBr98fZSR7aOpob9ctHQY) 
+[ 23/05/2022, 12:19:47 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:19:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: Z2kLjC_t6NLTE63z4it8oqn2vq-MYeaO) 
+[ 23/05/2022, 12:19:48 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 2h18ByqderDwChdqCkr6eFP5ItAJ_UMz) 
+[ 23/05/2022, 12:20:20 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 12:20:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: 0KF8i3UG3HEysgQJHrqTzCZbJ_CDoP54) 
+[ 23/05/2022, 12:20:21 ] - INFO - MongoDB Connected: nw-cosmetics (sid: QExeuR4iTo_a3W3N-a9OKi_nJQdyLvzZ) 
+[ 23/05/2022, 15:05:12 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 15:05:39 ] - INFO - Development Server running on port: 3030  
+[ 23/05/2022, 15:16:55 ] - INFO - MongoDB Connected: nw-cosmetics (sid: hvuN8Y7KRHV88Q54ZF1HbtiRbeUeWNAv) 
+[ 23/05/2022, 15:16:55 ] - INFO - MongoDB Connected: nw-cosmetics (sid: joy90EDYMAwsfpgqsiHKVYi5wTIVmcVr) 

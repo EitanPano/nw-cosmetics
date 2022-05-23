@@ -16,30 +16,6 @@ p {
     }
 }
 
-.go-back {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-inline-start: 1em;
-    margin-top: 0.5em;
-    border: none;
-    background: transparent;
-    font-weight: bold;
-    transition: transform 1s;
-    position: relative;
-    
-    &::before {
-        content: '← ';
-        position: absolute;
-        left: -0.8em;
-        transition: all 0.2s;
-    }
-
-    &:hover {
-        &::before {
-        left: -1.2em;
-        }
-    }
-}
-
 .btn-nude {
     border: none;
     background: transparent;
@@ -48,5 +24,4 @@ p {
 
 .secured {
     -webkit-text-security: disc;
-    // text-security: disc;
 }

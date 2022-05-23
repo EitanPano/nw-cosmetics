@@ -5,12 +5,13 @@ import { ObjectId } from 'mongodb';
 async function query(filterBy) {
     try {
         const [criteria, sortCriteria] = _buildCriterias(filterBy);
-
+        // const { limit } = filterBy 
         const collection = await dbService.getCollection('product');
         const products = await collection
-            .find(criteria)
-            .sort(sortCriteria)
-            .toArray();
+        .find(criteria)
+        .sort(sortCriteria)
+        .limit(+filterBy.limit || Infinity)
+        .toArray();
         return products;
     } catch (err) {
         logger.error('cannot find products', err);
@@ -81,6 +82,7 @@ function _buildCriterias(filterBy) {
     const criteria = {};
     const sortCriteria = {};
     const { sortBy } = filterBy
+    console.log('filterBy', filterBy)
     // console.log('for criteria',filterBy)
     // if (filterBy.search) {
     // const txtCriteria = { $regex: filterBy.search, $options: 'i' }
@@ -96,13 +98,16 @@ function _buildCriterias(filterBy) {
     //         // criteria.labels = { $all: filterBy.labels }
     // }
 
-    // if (sortBy) {
-    //     if (sortBy === 'Name') sortCriteria.name = 1;
-    //     else if (sortBy === 'Price') sortCriteria.price = 1;
-    //     else sortCriteria.createAt = 1;
-    // }
-
-    // console.log('criteria:', criteria);
+    // criteria.limit = limit ? +limit : Infinity;
+    
+    if (sortBy) {
+        if (sortBy === 'Name') sortCriteria.name = 1;
+        else if (sortBy === 'Price') sortCriteria.price = 1;
+        else if (sortBy === 'Rating') sortCriteria.rating = -1;
+        else sortCriteria.createAt = 1;
+    }
+    
+    // console.log('criteria', criteria)
     return [criteria, sortCriteria];
 }
 

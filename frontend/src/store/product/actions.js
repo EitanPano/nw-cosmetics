@@ -1,8 +1,9 @@
 import { productService } from '../../services/product.service';
 
-export const loadProducts = () => {
+export const loadProducts = (filterBy) => {
     return async (dispatch, getState) => {
-        const { filterBy } = getState().productModule;
+        if (!filterBy) filterBy = getState().productModule.filterBy;
+        // const { filterBy } = getState().productModule;
         try {
             const products = await productService.query(filterBy);
             dispatch({ type: 'LOAD_PRODUCTS', products });

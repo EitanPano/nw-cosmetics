@@ -1,7 +1,10 @@
 // SETUP
+@import 'setup/variables';
 @import 'setup/functions';
+@import 'setup/mixins';
 @import 'setup/bootstrap.min';
 @import 'setup/sanitize';
+@import 'setup/typography';
 
 // BASICS
 @import 'basics/base';
@@ -9,7 +12,70 @@
 
 // COMPONENTS
 @import 'components/loader';
+@import 'components/app-logo';
+@import 'components/app-header';
+@import 'components/newsletter';
+@import 'components/app-footer';
 @import 'components/user-message';
 @import 'components/card-preview';
 @import 'components/cart-form';
 @import 'components/quantity-input';
+
+hr {
+    width: 30%;
+    max-width: 200px;
+    border: 3px solid rgb(140, 210, 140);
+    margin: 0 auto;
+    border-radius: 30%;
+}
+
+.btn.btn-primary {
+    &:hover {
+        background-color: rgb(55, 55, 55);
+    }
+}
+
+.svg-background {
+    position: absolute;
+    z-index: -1;
+    width: 1500px;
+    top: 10em;
+    right: 0;
+    opacity: 0.2;
+}
+
+@import 'components/our-services';
+.carousel {
+    img {
+        max-height: 60vh;
+        object-fit: cover;
+        object-position: 0 10%;
+    }
+}
+
+
+
+.go-back {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    margin-inline-start: 1em;
+    margin-top: 0.5em;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    transition: transform 1s;
+    position: relative;
+
+    &::before {
+        content: '← ';
+        position: absolute;
+        left: -0.8em;
+        transition: all 0.2s;
+    }
+
+    &:hover {
+        &::before {
+            left: -1.2em;
+        }
+    }
+}

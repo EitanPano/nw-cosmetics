@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo from '../assets/imgs/logo.png';
+import { AppLogo } from './AppLogo';
 
 export const AppHeader = () => {
 
+    const {cartItems} = useSelector(state=> state.cartModule)
+    const getTotalQty = () => {
+        return cartItems.reduce((acc, item) => acc + item.quantity, 0)
+    }
+    
     const [isExpanded, setIsExpanded] = useState(false)
-
     const toggleMenu = () => setIsExpanded(!isExpanded)
     const closeMenu = () => isExpanded ? toggleMenu() : null;
 
@@ -20,30 +25,34 @@ export const AppHeader = () => {
     const burgerStyle = {borderRadius: '0.25em'}
 
     return (
-        <header>
+        <header className='app-header'>  
             <Navbar expanded={isExpanded} onClick={(ev) => ev.stopPropagation()} fixed='top' bg="dark" variant="dark" expand="md" className='py-3'>
-                <Container>
-                    <Navbar.Brand href="/">
-                        <img src={logo} width="40" height="40" alt="" />
-                        {' NW-Cosmetics'}
-                    </Navbar.Brand>
-                    <Navbar.Toggle onClick={toggleMenu} aria-controls="responsive-navbar-nav" style={burgerStyle}>
-                        {/* PASS TOGGLE PRESSED ICON CMP */}
-                    </Navbar.Toggle>
+                <Container className='navbar-container'>
+                    <AppLogo textColor={'light'}></AppLogo>
+
+                    <div className='side-actions d-flex ms-auto'>
+                        <NavLink onClick={() => closeMenu()} to="/auth" className="nav-link">
+                            <i className="fas fa-user"></i>
+                        </NavLink>
+                        <NavLink onClick={() => closeMenu()} to="/cart" className="nav-link">
+                            <i className="fas fa-shopping-cart"></i>
+                            <span className='cart-count'>{getTotalQty()}</span>
+                        </NavLink>
+                    </div>
+                    <Navbar.Toggle onClick={toggleMenu} aria-controls="responsive-navbar-nav" style={burgerStyle} />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ms-auto">
-                            <NavLink onClick={toggleMenu} to="/" className="nav-link">
-                                <i className="fa-solid fa-house"></i> Home
-                            </NavLink>
-                            <NavLink onClick={toggleMenu} to="/product" className="nav-link">
-                                <i className="fa-solid fa-leaf"></i> Products
-                            </NavLink>
-                            <NavLink onClick={toggleMenu} to="/cart" className="nav-link">
-                                <i className="fas fa-shopping-cart"></i> Cart
-                            </NavLink>
-                            <NavLink onClick={toggleMenu} to="/auth" className="nav-link">
-                                <i className="fas fa-user"></i> Sign In
-                            </NavLink>
+                        <Nav className='justify-content-between col-12 ps-4'>
+                            <div className='d-flex flex-column flex-md-row'>
+                                <NavLink onClick={toggleMenu} to="/product" className="nav-link">
+                                    Products
+                                </NavLink>
+                                <NavLink onClick={toggleMenu} to="/about" className="nav-link">
+                                    About
+                                </NavLink>
+                                <NavLink onClick={toggleMenu} to="/contact" className="nav-link">
+                                    Contact
+                                </NavLink>
+                            </div>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

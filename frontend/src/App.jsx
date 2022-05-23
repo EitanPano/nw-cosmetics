@@ -1,4 +1,7 @@
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { loadCartItems } from './store/cart/actions';
 import './styles/main.scss';
 
 import { AppFooter } from './components/AppFooter';
@@ -11,6 +14,12 @@ import { Cart } from './views/Cart';
 import { Auth } from './views/Auth';
 
 function App() {
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(loadCartItems())
+    }, [])
+    
 
     return (
         <Router>

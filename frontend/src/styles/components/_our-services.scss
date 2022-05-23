@@ -1,0 +1,39 @@
+.our-services {
+    text-align: center;
+
+    .service {
+        cursor: pointer;
+
+        h5 {
+            // font-weight: bold;
+            color: #5f5f5f;
+            font-family: LuckiestGuy;
+        }
+
+        .circle-glass {
+            width: em(130px);
+            height: em(130px);
+            background-color: rgba(220, 140, 205, 0.75);
+            border-radius: 50%;
+            margin: auto auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+
+            transition: all 0.5s;
+
+            i {
+                font-size: 3.5em;
+                color: white;
+            }
+        }
+
+        &:hover {
+            .circle-glass {
+                background-color: rgba(245, 180, 230, 0.9);
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
