@@ -4,7 +4,6 @@ import { localStore } from '../../services/utils';
 
 export const loadCartItems = () => async (dispatch) => {
     const cartItems = localStore.get('cartItems');
-    // console.log('cartItems', cartItems)
     dispatch({ type: 'LOAD_CART_ITEMS', cartItems });
 };
 
@@ -21,7 +20,6 @@ export const addToCart = (productId, qty) => async (dispatch, getState) => {
         };
         dispatch({ type: 'ADD_CART_ITEM', item: cartItem });
         const { cartItems } = getState().cartModule;
-        console.log('cartItems', cartItems);
         localStore.set('cartItems', cartItems);
     } catch (err) {
         dispatch({ type: 'SET_ERROR', error: err.message });

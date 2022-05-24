@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { loadCartItems, updateCartItem, removeFromCart } from '../store/cart/actions';
 
 import { Button, Col, Container, Image, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
@@ -8,6 +9,7 @@ import { CartItemList } from '../components/CartComponents/CartItemList';
 export const Cart = () => {
     const { cartItems } = useSelector((state) => state.cartModule);
     const dispatch = useDispatch();
+    const navigate = useNavigate()
 
     useEffect(() => {
         dispatch(loadCartItems());
@@ -29,7 +31,9 @@ export const Cart = () => {
         dispatch(removeFromCart(itemId))
     }
 
-    const goCheckout = () => {}
+    const goCheckout = () => {
+        navigate('/checkout')
+    }
 
     return (
         <main className="main-layout">
@@ -49,7 +53,7 @@ export const Cart = () => {
                         
                             <ListGroupItem>
                                 <Row>
-                                    <Col><p>Sub-Total:</p></Col>
+                                    <Col xs={7}><p>Sub-Total:</p></Col>
                                     <Col className="text-end"><p>${getTotalPrice()}</p></Col>
                                 </Row>
                             </ListGroupItem>

@@ -2,6 +2,7 @@
     .logo {
         margin: 0 0 0.15em 0.25em;
     }
+    
 }
 
 .side-actions {
@@ -36,16 +37,22 @@
 }
 
 
-
-
-
 @include for-medium-layout {
+    .navbar-nav {
+        position: relative;
+    
+        .nav-link:last-child {
+            position: absolute;
+            right: 0;
+        }
+    }
+
     .navbar-container {
         display: flex;
         .side-actions {
             order: 3;
         }
-
     }
+
 }
 

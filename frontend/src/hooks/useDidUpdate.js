@@ -12,5 +12,5 @@ export const useDidUpdate = (cbFunc, dependencies) => {
         cbFunc();
         
         // (isMounted.current) ? cbFunc() : isMounted.current = true
-    }, dependencies);
+    }, [dependencies, cbFunc]);
 };

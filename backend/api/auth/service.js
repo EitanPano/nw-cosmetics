@@ -9,8 +9,8 @@ async function signUp(userCreds) {
     return userService.add({ ...userCreds, password });
 }
 
-async function logIn({ userName, password }) {
-    const user = await userService.getByName(userName);
+async function logIn({ username, password }) {
+    const user = await userService.getByName(username);
     if (!user) return Promise.reject('Invalid username or password');
     const passMatch = await bcrypt.compare(password, user.password);
     if (!passMatch) return Promise.reject('Invalid username or password');

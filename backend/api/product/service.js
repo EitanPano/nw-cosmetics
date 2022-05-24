@@ -82,8 +82,7 @@ function _buildCriterias(filterBy) {
     const criteria = {};
     const sortCriteria = {};
     const { sortBy } = filterBy
-    console.log('filterBy', filterBy)
-    // console.log('for criteria',filterBy)
+    // console.log('filterBy', filterBy)
     // if (filterBy.search) {
     // const txtCriteria = { $regex: filterBy.search, $options: 'i' }
     // criteria.name = txtCriteria

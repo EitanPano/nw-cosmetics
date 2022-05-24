@@ -15,7 +15,7 @@ export const authService = {
 async function signUp(userCreds) {
     try {
         const user = await httpService.post(`${ROUTE_KEY}/signup`, userCreds);
-        return sessionStore.set(user);
+        return sessionStore.set(SESSION_KEY, user);
     } catch (err) {
         console.log(err);
     }
@@ -24,7 +24,7 @@ async function signUp(userCreds) {
 async function logIn(userCreds) {
     try {
         const user = await httpService.post(`${ROUTE_KEY}/login`, userCreds);
-        return sessionStore.set(user);
+        return sessionStore.set(SESSION_KEY, user);
     } catch (err) {
         console.log(err);
     }

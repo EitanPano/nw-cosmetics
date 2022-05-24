@@ -41,7 +41,7 @@ async function getByName(name) {
 
         const collection = await dbService.getCollection('user');
         const user = await collection.findOne(query);
-        return user ? true : false;
+        return user;
     } catch (err) {
         logger.error(`while finding user ${userName}`, err);
         throw err;

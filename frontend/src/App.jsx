@@ -11,14 +11,17 @@ import { Home } from './views/Home';
 import { Products } from './views/Products';
 import { ProductDetails } from './views/ProductDetails';
 import { Cart } from './views/Cart';
+import { Checkout } from './views/Checkout';
 import { Auth } from './views/Auth';
+import { sessionStore } from './services/utils';
+import { Profile } from './views/Profile';
 
 function App() {
     const dispatch = useDispatch()
 
     useEffect(() => {
         dispatch(loadCartItems())
-    }, [])
+    }, [dispatch])
     
 
     return (
@@ -30,7 +33,12 @@ function App() {
                     <Route element={<Products />} path='/product'></Route>
                     <Route element={<ProductDetails />} path='/product/:id'></Route>
                     <Route element={<Cart />} path='/cart'></Route>
+                    <Route element={<Profile />} path='/profile'></Route>
+                    <Route path='/checkout' element={<ProtectedRoute redirectPath='/auth/checkout'><Checkout/></ProtectedRoute>}></Route>
+
                     <Route element={<Auth />} path='/auth'></Route>
+                    <Route element={<Auth />} path='/auth/:navTo'></Route>
+
                     <Route path="*" element={<Navigate to="/" />}/>
                 </Routes>
                 <AppFooter></AppFooter>
@@ -39,5 +47,14 @@ function App() {
         </Router>
     );
 }
+
+const ProtectedRoute = ({ redirectPath = '/', children }) => {
+    const user = sessionStore.get('loggedUser')
+    if (!user) {
+      return <Navigate to={redirectPath} replace />;
+    }
+  
+    return children;
+  };
 
 export default App;

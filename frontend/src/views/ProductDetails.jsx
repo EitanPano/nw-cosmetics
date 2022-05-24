@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductById } from '../store/product/actions';
-import { addToCart } from '../store/cart/actions'
+import { addToCart } from '../store/cart/actions';
 
 import { Col, Row, Container, Image, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Rating } from '../components/Rating';
@@ -14,6 +14,7 @@ import { GoBack } from '../components/GoBack';
 export const ProductDetails = () => {
     const { selectedProduct, error } = useSelector((state) => state.productModule);
     const { id } = useParams();
+    const navigate = useNavigate();
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -22,8 +23,8 @@ export const ProductDetails = () => {
     }, [dispatch, id]);
     
     const onAddToCart = (qty) => {
-        dispatch(addToCart(selectedProduct._id, qty))
-        // navigate('/product')
+        dispatch(addToCart(selectedProduct._id, qty));
+        navigate(-1);
     }
 
     return (
@@ -59,7 +60,7 @@ export const ProductDetails = () => {
                         </ListGroup>
                     </Col>
 
-                    <CartForm price={selectedProduct.price} inStockCount={selectedProduct.inStockCount} onAddToCart={onAddToCart} />
+                    <CartForm product={selectedProduct} price={selectedProduct.price} inStockCount={selectedProduct.inStockCount} onAddToCart={onAddToCart} />
                     
                 </Row>
                 )}

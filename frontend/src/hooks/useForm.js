@@ -8,8 +8,8 @@ export const useForm = (initialState, cbFunc = () => {}) => {
 
     useDidUpdate(() => {
         // console.log(cbFunc);
-        // cbFunc(fields);
-    }, [fields]);
+        cbFunc(fields);
+    }, [fields, cbFunc]);
 
     const handleChange = ({ target }) => {
         const field = target.name;
@@ -27,10 +27,10 @@ export const getValidators = ({ target }, currPassword) => {
                 return /^[A-Za-z0-9]{3,32}$/.test(target.value);
 
             case 'email':
-                return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(target.value);
+                return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(target.value);
 
             case 'password':
-                return /^(?=[A-Za-z0-9@#$%^&+!=]+$)^(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+!=])(?=.{8,}).*$/.test(target.value);
+                return /^(?=.*\d)(?=.*[a-z])(?=.*[a-zA-Z]).{8,20}$/.test(target.value);
 
             case 'confirmPassword':
                 return (currPassword === value)

@@ -26,7 +26,7 @@ export const Home = () => {
                 <HomeServices></HomeServices>
                 <hr className='my-5' />
                 <h2 className="my-4 text-center">Best Sellers</h2>
-                {/* <Message variant='danger'>{error}</Message> */}
+                <Message variant='danger'>{error}</Message>
                 <ProductList isSample={true} products={products}></ProductList>
                 <hr className='my-5' />
             </Container>

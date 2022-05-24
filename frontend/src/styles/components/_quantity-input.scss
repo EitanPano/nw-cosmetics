@@ -10,16 +10,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(37px * 3);
+    width: calc(36px * 3);
     border-radius: 1em;
     margin-inline-start: auto;
     background: #fafafa;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
     button {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        width: em(36px);
-        height: em(36px);
+        width: 33.3%;
+        height: em(32px);
         outline: 1px solid rgba(0, 0, 0, 0.8);
         border: none;
         background: #1f1f1f;
@@ -42,7 +42,7 @@
     }
 
     input {
-        width: em(36px);
+        width: 33.3%;
         text-align: center;
         font-weight: bold;
         background: transparent;

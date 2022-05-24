@@ -3,17 +3,23 @@
     z-index: 50;
     a {
         color: rgba(175, 175, 175, 0.75);
+        font-size: 0.9em;
+        &:hover {
+            color: aliceblue;
+        }
     }
 
     h4 {
         color: rgba(220, 220, 220, 0.75);
+        font-size: 1.05em;
     }
 
     .copyright {
-        color: rgba(175, 175, 175, 0.5);
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.2);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
         padding: 0.5em 0;
-        margin-top: 1em;
+        margin-top: 2em;
+        font-size: 0.9em;
 
 
     }

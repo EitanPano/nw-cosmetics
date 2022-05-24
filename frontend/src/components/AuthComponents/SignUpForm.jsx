@@ -88,7 +88,7 @@ export const SignUpForm = ({ onSignUp, onGetIsExist }) => {
                     required
                 />
                 <Form.Control.Feedback type='invalid'>
-                    Min-8 Max-20 1 Lower, 1 Upper, 1 Special Char
+                    Min-8 Max-20, Atleast 1 number. 
                 </Form.Control.Feedback>
             </FormGroup>
             <FormGroup controlId='confirmPassword'>
@@ -115,7 +115,7 @@ export const SignUpForm = ({ onSignUp, onGetIsExist }) => {
 
             <Row className='my-2'>
                 <Col className='d-flex justify-content-center'>
-                    <Button onClick={handleSubmit} className='text-center'>SignUp</Button>
+                    <Button onClick={handleSubmit} className='text-center my-2'>SignUp</Button>
                 </Col>
             </Row>
         </Form>

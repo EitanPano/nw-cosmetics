@@ -1,9 +1,10 @@
 import { Row, Col, Image } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 import { QuantityInput } from './QuantityInput';
 
 export const CartItemPreview = ({ item, onUpdateCartItem, onRemoveFromCart }) => {
-
+    const navigate = useNavigate()
     const onChangeQty = (qty) => {
         onUpdateCartItem({ ...item, quantity: qty })
     }
@@ -11,7 +12,7 @@ export const CartItemPreview = ({ item, onUpdateCartItem, onRemoveFromCart }) =>
     return (
         <Row>
             <Col xs={4}>
-                <Image src={item.image} fluid></Image>
+                <Image onClick={() => navigate(`/product/${item._id}`)} src={item.image} fluid></Image>
             </Col>
             <Col className='d-flex flex-column justify-content-between'>
                 <Row>
