@@ -35,7 +35,7 @@ export const AppHeader = () => {
 
     return (
         <header className='app-header'>  
-            <Navbar expanded={isExpanded} onClick={(ev) => ev.stopPropagation()} fixed='top' bg="dark" variant="dark" expand="md" className='py-3'>
+            <Navbar expanded={isExpanded} onClick={(ev) => ev.stopPropagation()} fixed='top' bg="dark" variant="dark" expand="md">
                 <Container className='navbar-container'>
                     <AppLogo textColor={'light'}></AppLogo>
 

@@ -1,6 +1,15 @@
 .app-header {
     .logo {
-        margin: 0 0 0.15em 0.25em;
+        margin: 0.25em 0 0.15em 0.1em;
+    }
+
+    .navbar {
+        height: 5.5em;
+    }
+
+    img {
+        width: em(40px);
+        height: em(40px);
     }
 }
 
@@ -39,14 +48,22 @@
     }
 }
 
-
 @include for-medium-layout {
     .app-header {
+
+        img {
+            width: em(44px);
+            height: em(44px);
+        }
+
+        .logo {
+            margin: 0 0 0.15em 0.1em;
+        }
 
         .navbar-nav {
             position: relative;
             padding-top: 0;
-            
+
             .nav-link:last-child {
                 position: absolute;
                 right: 0;
@@ -60,6 +77,4 @@
             order: 3;
         }
     }
-
 }
-
