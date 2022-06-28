@@ -3,19 +3,13 @@
         margin: 0.25em 0 0.15em 0.1em;
     }
 
-    .navbar {
-        height: 5.5em;
-    }
-
     img {
         width: em(40px);
         height: em(40px);
     }
+
 }
 
-.navbar-nav {
-    padding-top: 1.2em;
-}
 
 .side-actions {
     .nav-link {
@@ -50,14 +44,13 @@
 
 @include for-medium-layout {
     .app-header {
-
-        img {
-            width: em(44px);
-            height: em(44px);
-        }
-
         .logo {
             margin: 0 0 0.15em 0.1em;
+        }
+
+        .navbar {
+            padding-top: 1rem;
+            padding-bottom: 1rem ;
         }
 
         .navbar-nav {
