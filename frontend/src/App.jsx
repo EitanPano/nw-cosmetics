@@ -15,12 +15,15 @@ import { Checkout } from './views/Checkout';
 import { Auth } from './views/Auth';
 import { sessionStore } from './services/utils';
 import { Profile } from './views/Profile';
+import { ProfileDetails } from './components/ProfileCmps/ProfileDetails';
+import { ProfileOrders } from './components/ProfileCmps/ProfileOrders';
 
 function App() {
     const dispatch = useDispatch()
 
     useEffect(() => {
         dispatch(loadCartItems())
+        // dispatch()
     }, [dispatch])
     
 
@@ -29,16 +32,29 @@ function App() {
             <div className="App">
                 <AppHeader></AppHeader>
                 <Routes>
-                    <Route element={<Home />} path='/'></Route>
                     <Route element={<Products />} path='/product'></Route>
                     <Route element={<ProductDetails />} path='/product/:id'></Route>
                     <Route element={<Cart />} path='/cart'></Route>
-                    <Route element={<Profile />} path='/profile'></Route>
-                    <Route path='/checkout' element={<ProtectedRoute redirectPath='/auth/checkout'><Checkout/></ProtectedRoute>}></Route>
-
+                    {/* <Route element={<Profile />} path='/profile'></Route> */}
                     <Route element={<Auth />} path='/auth'></Route>
                     <Route element={<Auth />} path='/auth/:navTo'></Route>
 
+                    <Route path='/checkout' element={
+                        <ProtectedRoute redirectPath='/auth/checkout'>
+                            <Checkout/>
+                        </ProtectedRoute>}>
+                    </Route>
+
+                    <Route path='/profile' element={
+                        <ProtectedRoute redirectPath='/auth/profile&details'>
+                            <Profile>
+                            </Profile>
+                        </ProtectedRoute>}>
+                        <Route path='details' element={<ProfileDetails />} />
+                        <Route path='orders' element={<ProfileOrders />} />
+                    </Route>
+
+                    <Route element={<Home />} path='/'></Route>
                     <Route path="*" element={<Navigate to="/" />}/>
                 </Routes>
                 <AppFooter></AppFooter>

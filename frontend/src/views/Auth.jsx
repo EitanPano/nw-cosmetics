@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getIsNameExist, logIn, signUp } from '../store/auth/actions';
@@ -13,20 +13,20 @@ export const Auth = () => {
     const navigate = useNavigate();
     const [isSignedUp, setIsSignedUp] = useState(true);
     const { navTo } = useParams();
-
+    const [route, subRoute] = navTo ? navTo.includes('&') ? navTo.split('&') : [navTo, ''] : '';
 
     const onSignUp = async (userCreds) => {
         dispatch(signUp(userCreds)).then(user => {
             if (!user) return null;
-            navigate(navTo ? `/${navTo}` : '/');
+            navigate(navTo ? `/${route}/${subRoute}` : '/');
         })
     }
     
     const onLogIn = async (userCreds) => {
-        if (!userCreds.username || !userCreds.password) return null
+        if (!userCreds.username || !userCreds.password) return null;
         dispatch(logIn(userCreds)).then(user => {
             if (!user) return dispatch(setUserMessage('The username or password entered do not exist. ', 'danger'));
-            navigate(navTo ? `/${navTo}` : '/');
+            navigate(navTo ? `/${route}/${subRoute}` : '/');
         })
     }
 
@@ -34,6 +34,10 @@ export const Auth = () => {
         return dispatch(getIsNameExist(someName)).then(isExist => isExist);
     }
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
+    
     const FormToShow = () => (
         <Container className='d-flex flex-column align-items-center'>
             { isSignedUp 

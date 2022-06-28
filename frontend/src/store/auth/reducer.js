@@ -1,5 +1,7 @@
+import { sessionStore } from "../../services/utils";
+
 const initialState = {
-    loggedUser: null,
+    loggedUser: sessionStore.get('loggedUser') || null,
 };
 
 export const authReducer = (state = initialState, action) => {

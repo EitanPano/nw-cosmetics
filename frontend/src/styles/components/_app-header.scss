@@ -2,7 +2,10 @@
     .logo {
         margin: 0 0 0.15em 0.25em;
     }
-    
+}
+
+.navbar-nav {
+    padding-top: 1.2em;
 }
 
 .side-actions {
@@ -38,12 +41,16 @@
 
 
 @include for-medium-layout {
-    .navbar-nav {
-        position: relative;
-    
-        .nav-link:last-child {
-            position: absolute;
-            right: 0;
+    .app-header {
+
+        .navbar-nav {
+            position: relative;
+            padding-top: 0;
+            
+            .nav-link:last-child {
+                position: absolute;
+                right: 0;
+            }
         }
     }
 

@@ -30,7 +30,7 @@ export const ProductDetails = () => {
     return (
         <main className="main-layout">
             <Container>
-                <Row className=" mb-3">
+                <Row className="mb-3">
                     <Col>
                         <GoBack></GoBack>
                     </Col>
@@ -39,8 +39,8 @@ export const ProductDetails = () => {
                 <Message variant="danger">{error}</Message>
 
                 { !selectedProduct ? <Loader></Loader> : (
-                    <Row>
-                    <Col sm={6} lg={4}>
+                <Row>
+                    <Col sm={6} lg={3} xl={4}>
                         <Image src={selectedProduct.image} fluid alt={selectedProduct.name} ></Image>
                     </Col>
                     <Col sm={6} lg={5}>
@@ -59,13 +59,12 @@ export const ProductDetails = () => {
                             </ListGroupItem>
                         </ListGroup>
                     </Col>
-
                     <CartForm product={selectedProduct} price={selectedProduct.price} inStockCount={selectedProduct.inStockCount} onAddToCart={onAddToCart} />
-                    
                 </Row>
                 )}
 
             </Container>
+            <hr className='my-5' />
         </main>
     );
 };

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { getTextCut } from '../../services/utils';
 import { Rating } from '../Rating';
 
-export const ProductPreview = ({ product, isSample }) => {
+export const ProductPreview = ({ product, isSample, onAddToCart }) => {
     const navigate = useNavigate()
 
     
@@ -22,7 +22,7 @@ export const ProductPreview = ({ product, isSample }) => {
                     </Col>
                 </Row>
             </Card.Body>
-            <Button onClick={(ev) => ev.stopPropagation()} variant="primary">Add to Cart</Button>
+            <Button disabled={!product.inStockCount} onClick={(ev) => onAddToCart(ev, _id)} variant="primary">Add to Cart</Button>
         </Card>
     </Col>
     )
@@ -46,7 +46,7 @@ export const ProductPreview = ({ product, isSample }) => {
                         </Col>
                     </Row>
                 </Card.Body>
-                <Button onClick={(ev) => ev.stopPropagation()} variant="primary">Add to Cart</Button>
+                <Button disabled={!product.inStockCount} onClick={(ev) => onAddToCart(ev, _id)} variant="primary">Add to Cart</Button>
             </Card>
         </Col>
     );

@@ -15,7 +15,7 @@ export const CartForm = ({product, onAddToCart}) => {
     if (!product) return null;
     const { quantity } = cartForm;
     return (
-        <Col lg={3}>
+        <Col lg={4} xl={3}>
                 <form className='cart-form'>
                 <ListGroup variant="">
                     <ListGroupItem>
@@ -26,7 +26,7 @@ export const CartForm = ({product, onAddToCart}) => {
                     </ListGroupItem>
                     <ListGroupItem>
                         <Row>
-                            <Col><p>In-Stock:</p></Col>
+                            <Col xs={8}><p>{isInStock() ? 'In-Stock:' : 'Out of Stock:'}</p></Col>
                             <Col className="text-end"><p>{isInStock() ? '✓' : '✘'}</p></Col>
                         </Row>
                     </ListGroupItem>

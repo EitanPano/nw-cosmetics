@@ -40,7 +40,7 @@ export const AppHeader = () => {
                     <AppLogo textColor={'light'}></AppLogo>
 
                     <div className='side-actions d-flex ms-auto'>
-                        <NavLink onClick={() => closeMenu()} to={loggedUser ? '/profile' : '/auth'} className="nav-link">
+                        <NavLink onClick={() => closeMenu()} to={'/profile/details'} className="nav-link">
                             <i className="fas fa-user"></i>
                         </NavLink>
                         <NavLink onClick={() => closeMenu()} to="/cart" className="nav-link">
@@ -48,7 +48,9 @@ export const AppHeader = () => {
                             <span className='cart-count'>{getTotalQty()}</span>
                         </NavLink>
                     </div>
-                    <Navbar.Toggle onClick={toggleMenu} aria-controls="responsive-navbar-nav" style={burgerStyle} />
+                    <Navbar.Toggle onClick={toggleMenu} aria-controls="responsive-navbar-nav" style={burgerStyle} >
+                        {isExpanded && <p className='btn-close btn-close-white'></p>}
+                    </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='justify-content-between col-12 ps-4'>
                             <div className='d-flex flex-column flex-md-row'>
@@ -61,8 +63,8 @@ export const AppHeader = () => {
                                 <NavLink onClick={toggleMenu} to="/contact" className="nav-link">
                                     Contact
                                 </NavLink>
-                                <NavLink onClick={loggedUser ? onLogOut : toggleMenu} to={loggedUser ? "/" : "/auth"} className="nav-link">
-                                    {loggedUser ? 'Logout' : 'Signin'}
+                                <NavLink onClick={loggedUser ? onLogOut : toggleMenu} to={loggedUser ? "/auth" : "/auth"} className="nav-link">
+                                    {loggedUser ? 'Logout' : 'Sign-in'}
                                 </NavLink>
                             </div>
                         </Nav>

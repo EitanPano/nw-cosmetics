@@ -2,6 +2,7 @@
     transition: all 0.2s;
 
     > .card-body {
+
         .card-title {
             min-height: 5em;
         }
@@ -10,5 +11,17 @@
     &:hover {
         background-color: #efefef;
         cursor: pointer;
+    }
+}
+
+@include for-medium-layout {
+    .card-preview {
+
+        > .card-body {
+
+            .card-title {
+                min-height: 3.8em;
+            }
+        }
     }
 }

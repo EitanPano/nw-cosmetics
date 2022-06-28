@@ -6,7 +6,7 @@ export const HomeCarousel = () => {
             <Carousel.Item>
                 <img className="d-block w-100" src="../assets/imgs/carousel/cosmetic-products.jpg" alt="First slide" />
                 <Carousel.Caption>
-                    <h2 className='text-light'>Handmade high quality Creams & Preperators.</h2>
+                    <h2 className='text-light'>Handmade high quality Creams & Preperations.</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

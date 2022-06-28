@@ -2,7 +2,7 @@ import { Row } from 'react-bootstrap';
 import { Loader } from '../Loader';
 import { ProductPreview } from './ProductPreview';
 
-export const ProductList = ({ products, isSample }) => {
+export const ProductList = ({ products, isSample, onAddToCart }) => {
 
     if (!products || !products.length) return <Loader></Loader>
     return (
@@ -11,6 +11,7 @@ export const ProductList = ({ products, isSample }) => {
                 <ProductPreview
                     isSample={isSample}
                     product={product}
+                    onAddToCart={onAddToCart}
                     key={product._id}
                 ></ProductPreview>
             ))}

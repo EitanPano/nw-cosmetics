@@ -8,7 +8,7 @@ export const AppLogo = ({ textColor }) => {
     return (
         <Link to="/" className="d-flex align-items-center justify-content-center">
             <img src={logo} width="44" height="44" alt="" />
-            <h2 className={classNames}>NW-Cosmetic</h2>
+            <h2 className={classNames}>NW-Cosmetics</h2>
         </Link>
     );
 };

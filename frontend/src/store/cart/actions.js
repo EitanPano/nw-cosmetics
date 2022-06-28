@@ -10,6 +10,7 @@ export const loadCartItems = () => async (dispatch) => {
 export const addToCart = (productId, qty) => async (dispatch, getState) => {
     try {
         const product = await getProductById(productId);
+        if (!product.inStockCount) return;
         const cartItem = {
             _id: product._id,
             name: product.name,
